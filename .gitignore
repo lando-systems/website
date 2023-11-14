@@ -2,3 +2,4 @@ node_modules/
 
 # markdown converted to html
 public/posts/**/*
+!public/posts/.gitkeep
