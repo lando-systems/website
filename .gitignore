@@ -1,0 +1,4 @@
+node_modules/
+
+# markdown converted to html
+public/posts/**/*
