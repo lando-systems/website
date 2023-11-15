@@ -1,0 +1,38 @@
+.crosshatch {
+  background:
+    linear-gradient(45deg, var(--surface1) 25%, transparent 25%, transparent 75%, var(--surface1) 75%, var(--surface1)),
+    linear-gradient(45deg, var(--surface1) 25%, transparent 25%, transparent 75%, var(--surface1) 75%, var(--surface1)),
+    0 0, 5px 5px;
+  background-size: 2px 2px;
+}
+
+.checkerboard {
+  --size: 2px;
+
+  background:
+    linear-gradient(45deg, var(--surface2) 25%, transparent 25%, transparent 50%, var(--surface2) 50%, var(--surface2) 75%, transparent 75%, transparent),
+    linear-gradient(45deg, var(--surface2) 25%, transparent 25%, transparent 50%, var(--surface2) 50%, var(--surface2) 75%, transparent 75%, transparent),
+    0 0, 5px 5px;
+  background-size: var(--size) var(--size);
+}
+
+.dots {
+  --size: 0.3rem;
+
+  background: radial-gradient(circle, hsl(var(--brand-hue) 15% 20%) 30%, transparent 40%), transparent;
+  background-size: var(--size) var(--size);
+}
+
+.starburst {
+  background: repeating-conic-gradient(#f06 0% 5%, #fff 5% 10%);
+}
+
+.horizontal-lines {
+  background: repeating-linear-gradient(
+    0deg,
+    var(--surface1),
+    var(--surface1) 5px,
+    var(--surface2) 5px,
+    var(--surface2) 10px
+  );
+}

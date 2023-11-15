@@ -1,0 +1,87 @@
+html {
+  min-height: 100vh;
+  box-sizing: border-box;
+  background: linear-gradient(135deg, var(--surface1), var(--surface4));
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+/* content */
+
+main {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+/* elements */
+
+button {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  cursor: pointer;
+
+  border: 1px solid var(--brand);
+  border-radius: 0.5rem;
+}
+
+button:hover {
+  border: 1px solid var(--brand);
+  background-color: var(--surface4);
+}
+
+/* Hover tooltips */
+
+dfn {
+  border-bottom: dot-dash 1px var(--shiny) !important;
+  padding: 0 0.4rem;
+  cursor: help;
+  font-style: normal;
+  position: relative;
+}
+
+dfn::after {
+  content: attr(data-info);
+  display: inline;
+  position: absolute;
+  top: 4rem;
+  left: 0;
+  opacity: 0;
+  width: 15rem;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  line-height: 1.25rem;
+  background: var(--surface2);
+  color: var(--text2);
+  text-align: center;
+  border-radius: 0.5rem;
+  box-shadow: 2px 2px 4px 2px rgba(18, 18, 18, 0.8);
+  border: 1px dashed var(--shiny);
+  transition: opacity 250ms, top 250ms;
+  pointer-events: none; /* prevents box from appearing when hovered */
+}
+
+dfn:hover {
+  z-index: 2;
+}
+
+dfn:hover::after {
+  opacity: 1;
+}
+
+dfn:hover::after {
+  top: 2.5rem;
+}
+

@@ -1,0 +1,40 @@
+<svg class="eye-open" xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 200 200" stroke-linecap="round">
+  <path id="lid-top" d="M 30 100 Q 100 20  170 100" fill="white"/>
+  <path id="lid-bottom" d="M 30 100 Q 100 180 170 100" fill="white"/>
+
+  <line id="lash1" x1="40" y1="90" x2="20" y2="70"/>
+  <line id="lash2" x1="70" y1="65" x2="60" y2="40"/>
+  <line id="lash3" x1="100" y1="60" x2="100" y2="30"/>
+  <line id="lash4" x1="130" y1="65" x2="140" y2="40"/>
+  <line id="lash5" x1="160" y1="90" x2="180" y2="70"/>
+
+  <circle id="iris" cx="100" cy="100" r="30"/>
+  <circle id="pupil" cx="100" cy="100" r="10"/>
+<!--
+svg.eye-open {
+  - -eye-size: 100px; /* 40px */
+  - -stroke-width: 6px;
+  - -stroke-color: black;
+  - -iris-color: skyblue;
+  - -pupil-color: #121212;
+
+  width: var(- -eye-size);
+  height: auto;
+
+  stroke: var(- -stroke-color);
+  stroke-width: var(- -stroke-width);
+}
+
+svg.eye-open #iris {
+  fill: var(- -iris-color);
+}
+svg.eye-open #pupil {
+  fill: var(- -pupil-color);
+}
+
+svg.eye-open line {
+  /*transform: scaleY(-1) translateY(-100%);*/
+}
+-->
+</svg>
