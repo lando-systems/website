@@ -2,4 +2,7 @@ node_modules/
 
 # markdown converted to html
 public/posts/**/*
+
+# keep the directory structure and template markup
 !public/posts/.gitkeep
+!public/posts/post-template.html
