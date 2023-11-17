@@ -3,6 +3,11 @@
   --theme-spacing: 10px; /* extra spacing around theme toggle */
 }
 
+header {
+  border-bottom: 1px dotted var(--surface2);
+  color: var(--text1);
+}
+
 nav {
   display: flex;
   width: 100%;
@@ -30,26 +35,37 @@ nav {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  border-bottom: 2px dotted transparent; /* prevent height jitter on hover */
 }
-
-.nav-brand {
-  white-space: nowrap; /* keep text and icon together */
-  font-size: larger;
+.nav-theme:hover {
+  background: var(--surface2);
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom: 2px dotted var(--brand) !important;
 }
 
 .nav-brand {
   display: flex;
   flex-grow: 1;
-  justify-content: center;
   border-bottom: 2px dotted transparent; /* prevent height jitter on hover */
+  white-space: nowrap; /* keep text and icon together */
+  font-size: larger;
+  width: 100%;
+  height: 100%;
 }
 .nav-brand:hover {
-  background: #232323;
-  border-bottom: 2px dotted deepskyblue !important;
+  background: var(--surface2);
+  border-bottom: 2px dotted var(--brand) !important;
   cursor: pointer;
 }
 
 .nav-brand a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-decoration: none; /* don't look like link text */
   color: inherit; /* don't change color on visited */
 }
@@ -70,22 +86,56 @@ nav {
   flex-grow: 1;
   text-align: center;
   border-bottom: 2px dotted transparent; /* prevent height jitter on hover */
+  font-size: large;
 }
 
 .nav-item a {
-  display: flex;
+  display: block;
+  width: 100%;
+  height: 100%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 10px;
   text-decoration: none;
   color: inherit;
 }
 
 .nav-item:hover {
-  background-color: #121212;
-  border-bottom: 2px solid skyblue;
+  background-color: var(--surface2);
+  border-bottom: 2px solid var(--shiny);
   cursor: pointer;
+}
+
+.nav-item[data-active] {
+  background-color: var(--surface3);
+  border-bottom: 2px solid var(--brand);
+  cursor: pointer;
+}
+
+/*
+ * might be a little too cutesy, but the point is to
+ * 'disable' most highlighting for the active nav-item
+ * when other nav items are being hovered
+ */
+nav:hover .nav-item[data-active] {
+  background-color: transparent;
+  border-bottom: 2px solid var(--brand);
+}
+
+.nav-item-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.nav-text {
+  margin-left: 0.5rem;
+}
+
+.nav-icon,
+.nav-text {
+  line-height: 1; /* center both icon and text vertically */
 }
 
 @media screen and (max-width: 600px) {
@@ -101,6 +151,10 @@ nav {
 
   .nav-menu {
     flex-direction: column;
+  }
+
+  .nav-item {
+    padding: 20px;
   }
 
   .nav-brand {
