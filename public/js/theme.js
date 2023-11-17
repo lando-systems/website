@@ -1,38 +1,37 @@
-const theme_attrib = "data-theme";
-const theme_element = document.documentElement;
+const themeAttrib = "data-theme";
+const themeElement = document.documentElement;
 
-const set_theme = (theme) => {
+const setTheme = (theme) => {
   if (theme) {
-    theme_element.setAttribute(theme_attrib, theme);
-    localStorage.setItem(theme_attrib, theme);
+    themeElement.setAttribute(themeAttrib, theme);
+    localStorage.setItem(themeAttrib, theme);
   } else {
     // no theme specified, reset to default
-    theme_element.removeAttribute(theme_attrib);
-    localStorage.removeItem(theme_attrib);
+    themeElement.removeAttribute(themeAttrib);
+    localStorage.removeItem(themeAttrib);
   }
 };
 
-const theme_toggle_element = document.getElementById("theme-toggle");
-theme_toggle_element.addEventListener("click", (event) => {
-  const page_theme = theme_element.getAttribute(theme_attrib);
-  const stored_theme = localStorage.getItem(theme_attrib);
-  const theme = stored_theme ? stored_theme : page_theme;
-  set_theme(theme === "dark" ? "light" : "dark");
+const themeToggleElem = document.querySelector(".color-scheme-toggle");
+themeToggleElem.addEventListener("click", (event) => {
+  const storedTheme = localStorage.getItem(themeAttrib);
+  const currentTheme = themeElement.getAttribute(themeAttrib);
+  const theme = storedTheme || currentTheme;
+  setTheme(theme === "dark" ? "light" : "dark");
 });
 
-const themeMedia = window.matchMedia("(prefers-color-scheme: dark)");
-themeMedia.addEventListener("change", (event) => {
-  // ignore system preference if there's already an override set on <html>
-  const is_overridden = theme_element.getAttribute(theme_attrib);
-  if (is_overridden) {
+const themePrefMedia = window.matchMedia("(prefers-color-scheme: dark)");
+themePrefMedia.addEventListener("change", (event) => {
+  // ignore system preference if theme is already set on its container element
+  const currentTheme = themeElement.getAttribute(themeAttrib);
+  if (currentTheme) {
     return;
   }
-
-  const prefers_dark = event.matches;
-  set_theme(prefers_dark ? "dark" : "light");
+  const prefersDark = event.matches;
+  setTheme(prefersDark ? "dark" : "light");
 });
 
 // set initial theme based on localStorage or system preference
-const initial_sys_pref = themeMedia.matches ? "dark" : "light";
-const initial_theme = localStorage.getItem(theme_attrib) || initial_sys_pref;
-set_theme(initial_theme);
+const initialSystemPref = themePrefMedia.matches ? "dark" : "light";
+const initialTheme = localStorage.getItem(themeAttrib) || initialSystemPref;
+setTheme(initialTheme);

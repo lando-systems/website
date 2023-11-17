@@ -7,70 +7,92 @@
     <title>Lando Systems</title>
 
     <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/header.css" />
 
-    <script src="js/theme.js" type="module"></script>
+    <script src="./js/theme.js" type="module"></script>
   </head>
   <body>
     <header>
-      <button id="nav-toggle">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
+      <nav role="navigation">
+        <div class="nav-top">
+          <div class="nav-theme">
+            <button
+              class="color-scheme-toggle"
+              title="Toggles color scheme between light & dark mode"
+              aria-label="auto"
+              aria-live="polite"
+            >
+              <svg
+                class="sun-and-moon"
+                aria-hidden="true"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <mask class="moon" id="moon-mask">
+                  <rect x="0" y="0" width="100%" height="100%" fill="white" />
+                  <circle cx="24" cy="10" r="6" fill="black" />
+                </mask>
+                <circle
+                  class="sun"
+                  cx="12"
+                  cy="12"
+                  r="6"
+                  mask="url(#moon-mask)"
+                  fill="currentColor"
+                />
+                <g class="sun-beams" stroke="currentColor">
+                  <line x1="12" y1="1" x2="12" y2="3" />
+                  <line x1="12" y1="21" x2="12" y2="23" />
+                  <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+                  <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+                  <line x1="1" y1="12" x2="3" y2="12" />
+                  <line x1="21" y1="12" x2="23" y2="12" />
+                  <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+                  <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+                </g>
+              </svg>
+            </button>
+          </div>
 
-      <nav role="navigation" class="surface3">
-        <ul class="menu">
-          <li><a id="nav-home" href="index.html">Home</a></li>
-          <li><a id="nav-about" href="about.html">About</a></li>
-          <li><a id="nav-games" href="games.html">Games</a></li>
-          <li><a id="nav-posts" href="posts.html">Posts</a></li>
+          <div class="nav-brand nav-item">
+            <a href="index.html">
+              <span class="nav-icon">🏠</span>
+              <span class="nav-text">Lando Systems</span>
+            </a>
+          </div>
+
+          <div class="nav-spacer"></div>
+        </div>
+
+        <ul class="nav-menu">
+          <li class="nav-item" data-page="about">
+            <a href="about.html">
+              <span class="nav-icon">❓</span>
+              <span class="nav-text">About</span>
+            </a>
+          </li>
+          <li class="nav-item" data-page="games">
+            <a href="games.html">
+              <span class="nav-icon">🎮</span>
+              <span class="nav-text">Games</span>
+            </a>
+          </li>
+          <li class="nav-item" data-page="posts">
+            <a href="posts.html">
+              <span class="nav-icon">📜</span>
+              <span class="nav-text">Posts</span>
+            </a>
+          </li>
         </ul>
       </nav>
-
-      <div class="logo">lando systems</div>
-
-      <!-- theme toggle -->
-      <button
-        class="theme-toggle"
-        id="theme-toggle"
-        title="Toggles light & dark"
-        aria-label="auto"
-        aria-live="polite"
-      >
-        <svg
-          class="sun-and-moon"
-          aria-hidden="true"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-        >
-          <mask class="moon" id="moon-mask">
-            <rect x="0" y="0" width="100%" height="100%" fill="white" />
-            <circle cx="24" cy="10" r="6" fill="black" />
-          </mask>
-          <circle
-            class="sun"
-            cx="12"
-            cy="12"
-            r="6"
-            mask="url(#moon-mask)"
-            fill="currentColor"
-          />
-          <g class="sun-beams" stroke="currentColor">
-            <line x1="12" y1="1" x2="12" y2="3" />
-            <line x1="12" y1="21" x2="12" y2="23" />
-            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
-            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
-            <line x1="1" y1="12" x2="3" y2="12" />
-            <line x1="21" y1="12" x2="23" y2="12" />
-            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
-            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
-          </g>
-        </svg>
-      </button>
     </header>
 
-    <div>lando.systems</div>
+    <main role="main">
+      <div>lando.systems</div>
+    </main>
+
+    <footer role="contentinfo">
+      <p>[footer...TODO - add copyright, social links, etc...]</p>
+    </footer>
   </body>
 </html>
