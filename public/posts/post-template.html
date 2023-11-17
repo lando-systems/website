@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>📜 Lando Systems - Posts</title>
+
+    <link rel="stylesheet" href="../css/main.css" />
+
+    <script>
+      // set initial theme based on localStorage
+      const themeAttrib = "data-theme";
+      const initialTheme = localStorage.getItem(themeAttrib);
+      if (initialTheme) {
+        document.documentElement.setAttribute(themeAttrib, initialTheme);
+      }
+    </script>
+    <script src="../js/theme.js" type="module"></script>
+  </head>
+  <body>
+    <header>
+      <nav role="navigation">
+        <div class="nav-top">
+          <div class="nav-theme">
+            <button
+              class="color-scheme-toggle"
+              title="Toggles color scheme between light & dark mode"
+              aria-label="auto"
+              aria-live="polite"
+            >
+              <svg
+                class="sun-and-moon"
+                aria-hidden="true"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <mask class="moon" id="moon-mask">
+                  <rect x="0" y="0" width="100%" height="100%" fill="white" />
+                  <circle cx="24" cy="10" r="6" fill="black" />
+                </mask>
+                <circle
+                  class="sun"
+                  cx="12"
+                  cy="12"
+                  r="6"
+                  mask="url(#moon-mask)"
+                  fill="currentColor"
+                />
+                <g class="sun-beams" stroke="currentColor">
+                  <line x1="12" y1="1" x2="12" y2="3" />
+                  <line x1="12" y1="21" x2="12" y2="23" />
+                  <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+                  <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+                  <line x1="1" y1="12" x2="3" y2="12" />
+                  <line x1="21" y1="12" x2="23" y2="12" />
+                  <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+                  <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+                </g>
+              </svg>
+            </button>
+          </div>
+
+          <div class="nav-brand nav-item">
+            <a href="../index.html">
+              <div class="nav-item-content">
+                <span class="nav-icon">🏠</span>
+                <span class="nav-text">Lando Systems</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="nav-spacer"></div>
+        </div>
+
+        <ul class="nav-menu">
+          <li class="nav-item" data-page="about">
+            <a href="../index.html">
+              <div class="nav-item-content">
+                <span class="nav-icon">❓</span>
+                <span class="nav-text">About</span>
+              </div>
+            </a>
+          </li>
+          <li class="nav-item" data-page="games">
+            <a href="../games.html">
+              <div class="nav-item-content">
+                <span class="nav-icon">🎮</span>
+                <span class="nav-text">Games</span>
+              </div>
+            </a>
+          </li>
+          <li class="nav-item" data-page="posts" data-active>
+            <a href="../posts.html">
+              <div class="nav-item-content">
+                <span class="nav-icon">📜</span>
+                <span class="nav-text">Posts</span>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main role="main">
+      <div>
+        lando.systems - post content is inserted here by
+        `build/convert-posts.mjs`
+      </div>
+    </main>
+
+    <footer role="contentinfo">
+      <div class="copyright">
+        ©️ <span id="copyright-year">♾️</span> Lando Systems
+      </div>
+
+      <div class="social-links">
+        <a
+          class="social-link"
+          href="https://github.com/lando-systems"
+          target="_blank"
+        >
+          <img
+            class="social-icon github-icon"
+            src="../images/github-mark.svg"
+            alt="GitHub"
+          />
+        </a>
+
+        <a class="social-link social-icon" href="#">
+          <span class="unicode-icon">☝️</span>
+        </a>
+      </div>
+    </footer>
+
+    <script>
+      const copyYear = document.getElementById("copyright-year");
+      copyYear.textContent = `${new Date().getFullYear()}`;
+    </script>
+  </body>
+</html>
