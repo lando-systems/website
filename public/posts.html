@@ -25,7 +25,7 @@
           <div class="nav-theme">
             <button
               class="color-scheme-toggle"
-              title="Toggles color scheme between light & dark mode"
+              title="Toggles color scheme between light &amp; dark mode"
               aria-label="auto"
               aria-live="polite"
             >
@@ -37,8 +37,14 @@
                 viewBox="0 0 24 24"
               >
                 <mask class="moon" id="moon-mask">
-                  <rect x="0" y="0" width="100%" height="100%" fill="white" />
-                  <circle cx="24" cy="10" r="6" fill="black" />
+                  <rect
+                    x="0"
+                    y="0"
+                    width="100%"
+                    height="100%"
+                    fill="white"
+                  ></rect>
+                  <circle cx="24" cy="10" r="6" fill="black"></circle>
                 </mask>
                 <circle
                   class="sun"
@@ -47,16 +53,16 @@
                   r="6"
                   mask="url(#moon-mask)"
                   fill="currentColor"
-                />
+                ></circle>
                 <g class="sun-beams" stroke="currentColor">
-                  <line x1="12" y1="1" x2="12" y2="3" />
-                  <line x1="12" y1="21" x2="12" y2="23" />
-                  <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
-                  <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
-                  <line x1="1" y1="12" x2="3" y2="12" />
-                  <line x1="21" y1="12" x2="23" y2="12" />
-                  <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
-                  <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+                  <line x1="12" y1="1" x2="12" y2="3"></line>
+                  <line x1="12" y1="21" x2="12" y2="23"></line>
+                  <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                  <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                  <line x1="1" y1="12" x2="3" y2="12"></line>
+                  <line x1="21" y1="12" x2="23" y2="12"></line>
+                  <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                  <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
                 </g>
               </svg>
             </button>
@@ -91,7 +97,7 @@
               </div>
             </a>
           </li>
-          <li class="nav-item" data-page="posts" data-active>
+          <li class="nav-item" data-page="posts" data-active="">
             <a href="posts.html">
               <div class="nav-item-content">
                 <span class="nav-icon">📜</span>
@@ -104,7 +110,16 @@
     </header>
 
     <main role="main">
-      <div>lando.systems - posts</div>
+      <div>
+        <h1>Posts</h1>
+        <div id="toc">
+          <ul>
+            <li>
+              <a href="./posts/test.html">2023-11-16: This is a test post</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </main>
 
     <footer role="contentinfo">

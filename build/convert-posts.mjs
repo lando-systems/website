@@ -1,67 +1,106 @@
-import fs from 'fs';
-import path from 'path';
-import {micromark} from 'micromark';
-import {gfm} from 'micromark-extension-gfm';
-import {frontmatter, frontmatterHtml} from 'micromark-extension-frontmatter';
-import {JSDOM} from 'jsdom';
-import prettier from 'prettier';
+import fs from "fs";
+import path from "path";
+import { micromark } from "micromark";
+import { gfm } from "micromark-extension-gfm";
+import { JSDOM } from "jsdom";
+import prettier from "prettier";
+import matter from "gray-matter";
+import moment from "moment";
 
-const posts_input_dir = './posts';
-const posts_output_dir = './public/posts';
-const post_template_file = './public/posts/post-template.html';
+const postsInputDir = "./posts";
+const postsOutputDir = "./public/posts";
+const postTemplateFile = "./public/posts/post-template.html";
+const postsLandingPageFile = "./public/posts.html";
 
 // match and capture the alt text and href of an image link
-const markdown_image_regex = /!\[(.*)\]\((.*)\)/g;
-const micromark_options = {
-    extensions: [gfm(), frontmatter()],
-    htmlExtensions: [frontmatterHtml()]
+const markdownImageRegex = /!\[(.*)\]\((.*)\)/g;
+
+const updatePostsTableOfContents = async (posts) => {
+  const inHtml = fs.readFileSync(postsLandingPageFile, "utf-8");
+  const dom = new JSDOM(inHtml);
+  const toc = dom.window.document.getElementById("toc");
+  const postListItems = posts.map(
+    (post) =>
+      `<li><a href="${post.href}">${moment(post.updated).format(
+        "YYYY-MM-DD",
+      )}: ${post.title}</a></li>`,
+  );
+  toc.innerHTML = `<ul>${postListItems.join("")}</ul>`;
+  const outHtmlRaw = dom.serialize();
+  const outHtml = await prettier.format(outHtmlRaw, { parser: "html" });
+  fs.writeFileSync(postsLandingPageFile, outHtml, "utf-8");
 };
 
-const template_html = fs.readFileSync(post_template_file, 'utf-8');
-const template_dom = new JSDOM(template_html);
-const template_main = template_dom.window.document.querySelector('main');
+const convertMarkdownFilesToHtml = async () => {
+  let numPostsConverted = 0;
 
-const convert_markdown_files_to_html = async () => {
-    let num_posts_converted = 0;
-    const in_files = fs.readdirSync(posts_input_dir);
-    for (const in_file of in_files) {
-        // only process markdown files
-        if (path.extname(in_file) !== '.md') {
-            continue;
-        }
-
-        // read the markdown file content
-        const in_filepath = path.join(posts_input_dir, in_file);
-        const content_markdown_src = fs.readFileSync(in_filepath, 'utf-8');
-
-        // modify the image href paths to be relative to the output directory
-        // TODO - if posts are going to end up in subdirectories of /public/posts/** by category
-        //   this won't be sufficient and we'll need to just extract the filename and rebuild the path
-        //   based on the final output directory for each post, for now just strip the `/public` prefix
-        const image_href_replacer = (match, alt_text, href) => {
-            const updated_href = href.replace('/public', '');
-            return `![${alt_text}](${updated_href})`;
-        };
-        const content_markdown = content_markdown_src.replace(markdown_image_regex, image_href_replacer);
-
-        // TODO - apply frontmatter to template; update page title, etc...
-
-        // convert the markdown content to html,
-        // insert into the template main element,
-        // output the prettified template html with converted markdown
-        template_main.innerHTML = micromark(content_markdown, micromark_options);
-        const out_content_raw = template_dom.serialize();
-        const out_content = await prettier.format(out_content_raw, {parser: 'html'});
-
-        // write the converted content
-        const out_filename = in_file.replace('.md', '.html');
-        const out_filepath = path.join(posts_output_dir, out_filename);
-        fs.writeFileSync(out_filepath, out_content);
-
-        num_posts_converted++;
+  const posts = [];
+  const inputFiles = fs.readdirSync(postsInputDir);
+  for (const inputFile of inputFiles) {
+    // only process markdown files
+    if (path.extname(inputFile) !== ".md") {
+      continue;
     }
-    console.log(`Converted ${num_posts_converted} markdown files in '/posts' to html and written to '/public/posts'`);
+
+    // read the post template file, parse it, and get references to elements we'll need to modify
+    const templateHtml = fs.readFileSync(postTemplateFile, "utf-8");
+    const templateDom = new JSDOM(templateHtml);
+    const templateElements = {
+      title: templateDom.window.document.querySelector("title"),
+      main: templateDom.window.document.querySelector("main"),
+    };
+
+    // read the markdown file content
+    const inputFilepath = path.join(postsInputDir, inputFile);
+    const markdownRaw = fs.readFileSync(inputFilepath, "utf-8");
+
+    // modify the image href paths to be relative to the output directory
+    // TODO - if posts are going to end up in subdirectories of /public/posts/** by category
+    //   this won't be sufficient and we'll need to just extract the filename and rebuild the path
+    //   based on the final output directory for each post, for now just strip the `/public` prefix
+    const markdownSrc = markdownRaw.replace(
+      markdownImageRegex,
+      (match, altText, href) => {
+        const updatedHref = href.replace("/public", "");
+        return `![${altText}](${updatedHref})`;
+      },
+    );
+
+    // extract frontmatter and markdown from parsed content
+    const { data: frontmatter, content: markdown } = matter(markdownSrc);
+    const html = micromark(markdown, { extensions: [gfm()] });
+
+    // populate a post object and add it to the posts array which will be used to build the table of contents
+    const outputFilename = inputFile.replace(".md", ".html");
+    const href = `./posts/${outputFilename}`;
+    const post = { href, ...frontmatter };
+    posts.push(post);
+
+    // apply frontmatter to template content
+    templateElements.title.textContent = post.title;
+    // TODO - update the template with other frontmatter props;
+    //  description, author, category, tags, created, updated
+    templateElements.main.innerHTML = html;
+
+    // output the modified template dom as an html string and prettify it
+    const postHtmlRaw = templateDom.serialize();
+    const postHtml = await prettier.format(postHtmlRaw, { parser: "html" });
+
+    // write the converted content to a file
+    const outputFilepath = path.join(postsOutputDir, outputFilename);
+    fs.writeFileSync(outputFilepath, postHtml);
+
+    numPostsConverted++;
+  }
+  console.log(
+    `Converted ${numPostsConverted} markdown files in '/posts' to html and written to '/public/posts'`,
+  );
+
+  // sort posts by most recently updated and update posts landing page table of contents
+  posts.sort((a, b) => b.updated - a.updated);
+  await updatePostsTableOfContents(posts);
+  console.log(`Updated posts landing page table of contents`);
 };
 
 // start the conversion and wait for it to complete
-await convert_markdown_files_to_html();
+await convertMarkdownFilesToHtml();
