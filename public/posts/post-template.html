@@ -8,6 +8,16 @@
 
     <link rel="stylesheet" href="../css/main.css" />
 
+    <!-- setup syntax highlighting of code blocks via highlight.js -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark-dimmed.min.css"
+    />
+    <script type="module">
+      import hljs from "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/es/highlight.min.js";
+      hljs.highlightAll();
+    </script>
+
     <script>
       // set initial theme based on localStorage
       const themeAttrib = "data-theme";
