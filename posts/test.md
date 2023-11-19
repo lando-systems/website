@@ -16,3 +16,21 @@ updated: 2023-11-17
 If `src` attribute is set, all relative links within 
 that markdown document should be transformed
 to be **relative** to `src` instead of `location.href`.
+
+```js
+// this is a code block for javascript
+const convertMarkdownFilesToHtml = async () => {
+    let numPostsConverted = 0;
+
+    const posts = [];
+    const inputFiles = fs.readdirSync(postsInputDir);
+    for (const inputFile of inputFiles) {
+        // only process markdown files
+        if (path.extname(inputFile) !== ".md") {
+            continue;
+        }
+        // ...
+    }
+};
+await convertMarkdownFilesToHtml();
+```
