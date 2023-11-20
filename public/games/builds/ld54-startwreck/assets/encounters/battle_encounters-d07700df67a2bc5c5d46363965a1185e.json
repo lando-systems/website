@@ -1,0 +1,1016 @@
+[
+  {
+    "title": "Hostile Space Pirates",
+    "text": "You run afoul of a group of space pirates on their way to plunder other hapless\nspacefarers like yourself \n \nHow do you proceed?",
+    "imageKey": "arwing",
+    "characterKey": "starveFox",
+    "type": "BATTLE",
+    "options": [
+      {
+        "text": "Attack the brigands!",
+        "possibleOutcomes": [
+          {
+            "type": "FUEL",
+            "value": 1,
+            "text": "Victory! You destroyed them and claimed their fuel as yours.\n\nI mean, it wasn't even close - you SMOKED them.\n\nOnward, to the stars!",
+            "weight": 0.7
+          }
+        ]
+      },
+      {
+        "text": "Maybe we can talk it out?",
+        "possibleOutcomes": [
+          {
+            "type": "SCRAP",
+            "value": 1,
+            "text": "Against all odds, the marauders could be reasoned with!\n\nThey even shared their resources with you. \n\nHow kind-hearted of those filthy space rats!",
+            "weight": 1.0
+          }
+        ]
+      },
+      {
+        "text": "Let's make a deal, hmm?",
+        "possibleOutcomes": [
+
+          {
+            "type": "FUEL",
+            "value": -1,
+            "text": "Diplomacy was... not effective.\n\nLike a bully stealing lunch money from the nerdy kid in an 80s movie, they stole your fuel. \n\nAnd your dignity.",
+            "weight": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Alien Nation",
+    "text": "You come across a planet populated by a species you've never seen before!\n\nThese creatures must be. . .",
+    "imageKey": "enterprise",
+    "characterKey": "nagilum",
+    "type": "BATTLE",
+    "options": [
+        {
+            "text": "Destroyed!",
+            "possibleOutcomes": [
+              {
+                "type": "SCRAP",
+                "value": 100,
+                "text": "You wipe out the nascent civilization and plunder their planet's meager resources\n\nKind of a dick move, honestly. \n\nAnd so unnecessary! Have you considered therapy?",
+                "weight": 1
+              }
+            ]
+        },
+        {
+            "text": "Befriended!",
+            "possibleOutcomes": [
+              {
+                "type": "SCRAP",
+                "value": 500,
+                "text": "Turns out, violence WASN'T the answer!\n\nThey share their meager resources with you in a stunning display of \ninterplanetary generosity.",
+                "weight": 1
+              }
+            ]
+        },
+        {
+            "text": "Ignored!",
+            "possibleOutcomes": [
+              {
+                "type": "NOTHING",
+                "value": 0,
+                "text": "You avoid them. \n\n . . . that's it.\n\nHow narratively unsatisfying.",
+                "weight": 1
+              }
+            ]
+        }
+    ]
+  },
+  {
+    "title": "Multiple Ore Chasms",
+    "text": "Glistening caverns cover the nearby planet's surface.\n\nExploring these crevices may yield untold riches - or be a waste of time and energy.\n\nHow do you proceed?",
+    "imageKey": "spaceship",
+    "characterKey": "",
+    "type": "BATTLE",
+    "options": [
+      {
+        "text": "Dive in with reckless abandon",
+        "possibleOutcomes": [
+          {
+            "type": "SCRAP",
+            "value": 1,
+            "text": "Your eagerness pays off and the crew experiences multiple ore chasms.\n\nNo mutiny for these folks!",
+            "weight": 1.0
+          }
+        ]
+      },
+      {
+        "text": "Maybe I'll explore the opening a little, just to see how it feels",
+        "possibleOutcomes": [
+          {
+            "type": "FUEL",
+            "value": -1,
+            "text": "There were orbs of varying shades of blue, but no ore chasms.\n\nHow anti-climactic!",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "text": "I think I'll just watch",
+        "possibleOutcomes": [
+          {
+            "type": "SCRAP",
+            "value": 1,
+            "text": "Hey, different strokes for different folks - you do you, buddy.",
+            "weight": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Finger On The Pulsar",
+    "text": "Your ship comes dangerously close to a hyper-energetic pulsar.\n\nYou might be able to use its emissions for fuel . . .\n\nWhat do you do?",
+    "imageKey": "pulsar",
+    "characterKey": "",
+    "type": "BATTLE",
+    "options": [
+      {
+        "text": "Get a closer look",
+        "possibleOutcomes": [
+          {
+            "type": "FUEL",
+            "value": -1,
+            "text": "A beautiful view, but sadly not much more than that.\n\nAt least you'll always have your memories.",
+            "weight": 0.7
+          }
+        ]
+      },
+      {
+        "text": "Send a message back to earth",
+        "possibleOutcomes": [
+          {
+            "type": "SCRAP",
+            "value": -1,
+            "text": "Nobody back home was listening. \n\nDisappointing, but not surprising, I suppose...",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "text": "Wait and see",
+        "possibleOutcomes": [
+          {
+            "type": "NOTHING",
+            "value": 0,
+            "text": "After some time, the pulsar's energy emissions dissipate.\n\nYou continue your journey unharmed, albeit a bit lamer for it..",
+            "weight": 0.8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Black Hole, Son",
+    "text": "You encounter a massive black hole. What do you do?",
+    "imageKey": "blackhole",
+    "characterKey": "",
+    "type": "BATTLE",
+    "options": [
+      {
+        "text": "Approach the black hole for research",
+        "possibleOutcomes": [
+          {
+            "type": "FUEL",
+            "value": 2,
+            "text": "The time dilation causes you to resemble Matthew McConaughey.\n\nAlright, alright, alright!",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "text": "Maintain a safe distance and observe",
+        "possibleOutcomes": [
+          {
+            "type": "FUEL",
+            "value": 1,
+            "text": "You make groundbreaking observations about black holes from a safe distance.\n\nHow responsible of you!",
+            "weight": 0.7
+          }
+        ]
+      },
+      {
+        "text": "Flee from the black hole",
+        "possibleOutcomes": [
+          {
+            "type": "NOTHING",
+            "value": -1,
+            "text": "What you lack in courage you gain in longevity.\n\nFor now, anyway. These spaceships aren't exactly known for their durability.",
+            "weight": 0.8
+          },
+          {
+            "type": "FUEL",
+            "value": -1,
+            "text": "Escaping the black hole is challenging and results in minor damage to your ship.",
+            "weight": 0.2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "A Mysterious Planet",
+    "text": "You discover a planet that doesn't appear on any of your maps.\n\n What do you do?",
+    "imageKey": "mysteriousplanet",
+    "characterKey": "",
+    "type": "BATTLE",
+    "options": [
+      {
+        "text": "Land on the planet and explore",
+        "possibleOutcomes": [
+          {
+            "type": "FUEL",
+            "value": 2,
+            "text": "Surprisingly enough, this planet is full of resources yet to be extracted.\n\nScore!",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "text": "Observe the planet from orbit",
+        "possibleOutcomes": [
+          {
+            "type": "FUEL",
+            "value": 2,
+            "text": "Unusual energy signatures suggest high levels of stay-the-fuck-awaynium.\n\nGood thing you kept your distance.",
+            "weight": 0.7
+          }
+        ]
+      },
+      {
+        "text": "Leave the planet alone and continue your journey",
+        "possibleOutcomes": [
+          {
+            "type": "FUEL",
+            "value": 1,
+            "text": "Yeah! You leave that planet right where it is!\n\nIt was probably stupid anyway.",
+            "weight": 0.8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Asteroid Field",
+    "text": "You enter a dense asteroid field. \n\nWhat do you do?",
+    "imageKey": "asteroidfield",
+    "characterKey": "",
+    "type": "BATTLE",
+    "options": [
+      {
+        "text": "Navigate carefully through the asteroid field",
+        "possibleOutcomes": [
+          {
+            "type": "FUEL",
+            "value": 1,
+            "text": "Skillful navigation allows you to pass through the asteroid field unscathed.\n\nLooks like your co-pilot just lost a bet!",
+            "weight": 0.7
+          }
+        ]
+      },
+      {
+        "text": "Use onboard systems to clear a path",
+        "possibleOutcomes": [
+          {
+            "type": "FUEL",
+            "value": 1,
+            "text": "Your onboard systems effectively clear a safe path through the asteroid field.\n\nAnd they said AI would be the death of us!",
+            "weight": 0.8
+          }
+        ]
+      },
+      {
+        "text": "Change course and avoid the asteroid field",
+        "possibleOutcomes": [
+          {
+            "type": "FUEL",
+            "value": 1,
+            "text": "You change course and safely bypass the asteroid field without any issues.\n\nTurns out sometimes you CAN run from your problems!",
+            "weight": 0.9
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Abandoned Space Station",
+    "text": "You come across an abandoned space station. \n\nTotally normal, not creepy at all.\n\nWhat do you do?",
+    "imageKey": "abandonedstation",
+    "characterKey": "",
+    "type": "BATTLE",
+    "options": [
+      {
+        "text": "Dock with the space station and explore its interior",
+        "possibleOutcomes": [
+          {
+            "type": "FUEL",
+            "value": 1,
+            "text": "You find valuable technology and supplies inside the space station\n\nDefinitely no disfigured bodies of long-dead travelers who traversed \nhell itself by passing through the event horizon of a black hole",
+            "weight": 0.6
+          }
+        ]
+      },
+      {
+        "text": "Scan the space station from a distance",
+        "possibleOutcomes": [
+          {
+            "type": "FUEL",
+            "value": 1,
+            "text": "Your scans reveal hidden compartments with useful resources on the space station.\n\nWhich are full of useful stuff and TOTALLY worth this creepy detour.",
+            "weight": 0.7
+          }
+        ]
+      },
+      {
+        "text": "Ignore the space station and continue your journey",
+        "possibleOutcomes": [
+          {
+            "type": "FUEL",
+            "value": 1,
+            "text": "Fucking nope as hell, brah.\n\nI am OUT.",
+            "weight": 0.8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Bounty Hunters",
+    "text": "You encounter a ragtag group of bounty hunters. \n\nWhat do you do?",
+    "imageKey": "discoveryone",
+    "characterKey": "mal9000",
+    "type": "BATTLE",
+    "options": [
+      {
+        "text": "Attack!",
+        "possibleOutcomes": [
+          {
+            "type": "FUEL",
+            "value": 1,
+            "text": "Your combat skills prevail, and you soundly defeat the bounty hunters.\n\nYou have secured valuable loot, and also bragging rights.\n\n",
+            "weight": 0.6
+          }
+        ]
+      },
+      {
+        "text": "Ask them for directions",
+        "possibleOutcomes": [
+          {
+            "type": "FUEL",
+            "value": 1,
+            "text": "The bounty hunters were surprisingly helpful.\n\nThey also had this recipe for a killer vegan tomato bisque.\nHonestly, you don't miss the cream at all.",
+            "weight": 0.7
+          }
+        ]
+      },
+      {
+        "text": "Evade the bounty hunters",
+        "possibleOutcomes": [
+          {
+            "type": "FUEL",
+            "value": 1,
+            "text": "For a group whose whole thing is finding people, they were shockingly easy to sneak past.\n\nOn to the next sector!",
+            "weight": 0.8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Unexpected Meteor Shower",
+    "text": "Your spaceship encounters a sudden meteor shower. \n\nWhat do you do?",
+    "imageKey": "meteorshower",
+    "characterKey": "",
+    "type": "BATTLE",
+    "options": [
+      {
+        "text": "Activate the ship's shields and navigate through the meteor shower",
+        "possibleOutcomes": [
+          {
+            "type": "FUEL",
+            "value": 4,
+            "text": "Your shields fucking CRUSH IT. Not a single scratch.\n\n You fully navigate through the meteor shower unharmed.\n\nAlso, mad bragging rights for your shield tech. Dude's a pro.",
+            "weight": 0.7
+          }
+        ]
+      },
+      {
+        "text": "Try to divert the meteor shower using ship's technology",
+        "possibleOutcomes": [
+          {
+            "type": "FUEL",
+            "value": 1,
+            "text": "You are able to repel the meteors using your ship's ion exhaust.\n\nWhich is totally a real thing and not something I just made up.",
+            "weight": 0.6
+          }
+        ]
+      },
+      {
+        "text": "Make sure the crew knows the difference between meteor and meteorite",
+        "possibleOutcomes": [
+          {
+            "type": "FUEL",
+            "value": 2,
+            "text": "It's only a meteorite after it hits the ground. If it's still in the sky, it's a meteor.\n\n(Technically, these were 'meteoroids' since they are still in interplanetary space\n but meteor reads better in the text)",
+            "weight": 0.8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "A Gas Giant's Moon",
+    "text": "You approach one of the moons of a gas giant. \n\nWhat do you do?",
+    "imageKey": "gasgiantmoon",
+    "characterKey": "",
+    "type": "BATTLE",
+    "options": [
+      {
+        "text": "Land on the moon and collect samples",
+        "possibleOutcomes": [
+          {
+            "type": "FUEL",
+            "value": 1,
+            "text": "You find unique and valuable minerals while collecting samples.\n\nHurray.",
+            "weight": 0.6
+          }
+        ]
+      },
+      {
+        "text": "Deploy drones to gather data from the moon's surface",
+        "possibleOutcomes": [
+          {
+            "type": "FUEL",
+            "value": 1,
+            "text": "Your drones capture valuable data about the moon's geological features.\n\nYou also capture footage that will be absolutely KILLER for engagement on your socials.",
+            "weight": 0.7
+          }
+        ]
+      },
+      {
+        "text": "No fart joke? Seriously?",
+        "possibleOutcomes": [
+          {
+            "type": "FUEL",
+            "value": 1,
+            "text": "I mean, there's already the \"moon\" bit, like when someone exposes their butt. \n\nBetween that, \"gas giant\", and \"Uranus\" it practically writes itself!",
+            "weight": 0.8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "An Interstellar Anomaly",
+    "text": "You come across a mysterious Interstellar anomaly. \n\nWhat do you do?",
+    "imageKey": "interstellaranomaly",
+    "characterKey": "",
+    "type": "BATTLE",
+    "options": [
+      {
+        "text": "Grab a Memento from the surface",
+        "possibleOutcomes": [
+          {
+            "type": "FUEL",
+            "value": 1,
+            "text": "Maybe it WAS a little obvious to capitalize the titles and all, but subtlety is hit-or-miss.",
+            "weight": 0.6
+          }
+        ]
+      },
+      {
+        "text": "Try to gain Prestige from fellow astronauts",
+        "possibleOutcomes": [
+          {
+            "type": "FUEL",
+            "value": 1,
+            "text": "They didn't always work, but The Prestige had a lot of bold storytelling choices.\n\nAnd come on - Hugh Jackman? SWOON CITY",
+            "weight": 0.7
+          }
+        ]
+      },
+      {
+        "text": "Try to uncover the source of the anomaly's Inception",
+        "possibleOutcomes": [
+          {
+            "type": "FUEL",
+            "value": 1,
+            "text": "Trying to work in \"Dark (K)night\" would have been too much of a stretch I think",
+            "weight": 0.8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Mining Operation",
+    "text": "You find a rich asteroid field suitable for mining. \n\nWhat do you do?",
+    "imageKey": "asteroidmining",
+    "characterKey": "",
+    "type": "BATTLE",
+    "options": [
+      {
+        "text": "Begin mining operations on the largest asteroid",
+        "possibleOutcomes": [
+          {
+            "type": "SCRAP",
+            "value": 1,
+            "text": "Going right for the biggest one . . .\n\nSize queen much?",
+            "weight": 0.6
+          }
+        ]
+      },
+      {
+        "text": "Deploy mining drones to collect resources from multiple asteroids",
+        "possibleOutcomes": [
+          {
+            "type": "SCRAP",
+            "value": 1,
+            "text": "Your mining drones gather a diverse range of valuable resources from the asteroids.\n\nWhich you now have to find a place to store. Yay.",
+            "weight": 0.7
+          }
+        ]
+      },
+      {
+        "text": "Abandon the asteroid mining operation and continue your journey",
+        "possibleOutcomes": [
+          {
+            "type": "FUEL",
+            "value": 1,
+            "text": "Giving up? Already?\n\nMaybe your ex was right...",
+            "weight": 0.8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Stellar Orbs",
+    "text": "You encounter what appears to be a flying recreational vehicle.\n\nThe crew consists of a handsome rogue and a . . . talking dog-man? \n\nWhat do you do?",
+    "imageKey": "spaceballs",
+    "characterKey": "dogonaut",
+    "type": "BATTLE",
+    "options": [
+      {
+        "text": "Change the password on your luggage",
+        "possibleOutcomes": [
+          {
+            "type": "SCRAP",
+            "value": 1,
+            "text": "You're surrounded by assholes, but at least you have clean air. \n\nIt's canned, but that's how it goes sometimes, ya know? ",
+            "weight": 0.6
+          }
+        ]
+      },
+      {
+        "text": "Use the schwartz",
+        "possibleOutcomes": [
+          {
+            "type": "SCRAP",
+            "value": 1,
+            "text": "Can you believe Mel Brooks is still alive?\n\nHe's a national treasure!\n\nJust an incredible body of work.",
+            "weight": 0.7
+          }
+        ]
+      },
+      {
+        "text": "Go from suck to blow",
+        "possibleOutcomes": [
+          {
+            "type": "FUEL",
+            "value": 1,
+            "text": "Incredible wordplay.\n\nThe 80s were a different time.",
+            "weight": 0.8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "An Odyssey in Space",
+    "text": "You encounter a ship that appears to have a sentient onboard computer. \n\nWhat do you do?",
+    "imageKey": "discoveryone",
+    "characterKey": "mal9000",
+    "options": [
+      {
+        "text": "Open the pod bay doors",
+        "possibleOutcomes": [
+          {
+            "type": "SCRAP",
+            "value": 1,
+            "text": "I'm afraid you can't do that...\n\n",
+            "weight": 0.6
+          }
+        ]
+      },
+      {
+        "text": "Ponder the monolith",
+        "possibleOutcomes": [
+          {
+            "type": "SCRAP",
+            "value": 1,
+            "text": "You are overcome by a sudden urge towards violence . . . \n\nThose other apes better watch their asses.",
+            "weight": 0.7
+          }
+        ]
+      },
+      {
+        "text": "Just appreciate the lightshow",
+        "possibleOutcomes": [
+          {
+            "type": "FUEL",
+            "value": 1,
+            "text": "This would be great if you were high.\n\nMaybe next time . . .",
+            "weight": 0.8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Murder Sun",
+    "text": "Is that a moon?\n\nNo, I think it's a space station. \n\nWhat do you do?",
+    "imageKey": "deathstar",
+    "characterKey": "emporer",
+    "type": "BATTLE",
+    "options": [
+      {
+        "text": "Join it, or die",
+        "possibleOutcomes": [
+          {
+            "type": "SCRAP",
+            "value": 1,
+            "text": "All too easy.",
+            "weight": 0.6
+          }
+        ]
+      },
+      {
+        "text": "Use the pressure",
+        "possibleOutcomes": [
+          {
+            "type": "FUEL",
+            "value": 1,
+            "text": "Do . . . or do not.\n\nIt's your call, I'm good either way.",
+            "weight": 0.7
+          }
+        ]
+      },
+      {
+        "text": "Don't get cocky",
+        "possibleOutcomes": [
+          {
+            "type": "FUEL",
+            "value": 1,
+            "text": "It was his first time as a gunner . . .\n\nProbably mostly beginner's luck.",
+            "weight": 0.8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Weight Impact",
+    "text": "Honestly, I've never played Mass Effect, but I hear good things.. \n\nWhat do you do in it?",
+    "imageKey": "normandy",
+    "characterKey": "philosoraptor",
+   "type": "BATTLE",
+    "options": [
+      {
+        "text": "Try to have sex with an alien, mostly",
+        "possibleOutcomes": [
+          {
+            "type": "SCRAP",
+            "value": 1,
+            "text": "That's the whole thing with this one, right?\n\nWhat a strange and beautiful time to be alive.",
+            "weight": 0.6
+          }
+        ]
+      },
+      {
+        "text": "I don't actually remember",
+        "possibleOutcomes": [
+          {
+            "type": "SCRAP",
+            "value": 1,
+            "text": "It's supposed to be a classic, but I just never found the time.\n\nMaybe someday.",
+            "weight": 0.7
+          }
+        ]
+      },
+      {
+        "text": "Huh?",
+        "possibleOutcomes": [
+          {
+            "type": "FUEL",
+            "value": 1,
+            "text": "There are just many games, you know?\n\nHard to keep up.",
+            "weight": 0.8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Solar Canine",
+    "text": "You encounter a ship with a distinct pointed shape.\n\nIt appears well-suited for low-polygon space travel.\n\nHow do you proceed?",
+    "imageKey": "arwing",
+    "characterKey": "starveFox",
+  "type": "BATTLE",
+    "options": [
+      {
+        "text": "Do a barrel roll",
+        "possibleOutcomes": [
+          {
+            "type": "SCRAP",
+            "value": 1,
+            "text": "It's a bit of a slippy maneuver, but you pull it off.\n\nWell done.",
+            "weight": 0.6
+          }
+        ]
+      },
+      {
+        "text": "Get sassed by a falcon",
+        "possibleOutcomes": [
+          {
+            "type": "SCRAP",
+            "value": 1,
+            "text": "He's so cocky! \n\nNot gonna lie though, kind of a lot of daddy energy going on there.\n\nDefinite smash.",
+            "weight": 0.7
+          }
+        ]
+      },
+      {
+        "text": "Wait for the sequel",
+        "possibleOutcomes": [
+          {
+            "type": "FUEL",
+            "value": 1,
+            "text": "I hope you aren't going anywhere for a while . . .\n\n",
+            "weight": 0.8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "You Know This One",
+    "text": "You come upon a ship that has seen countless adventures over the years, \nwith many, many different crews. \n\nWhat do you do?",
+    "imageKey": "enterprise",
+    "characterKey": "catonaut",
+    "type": "BATTLE",
+    "options": [
+      {
+        "text": "Go where no one has gone before",
+        "possibleOutcomes": [
+          {
+            "type": "SCRAP",
+            "value": 1,
+            "text": "Too on the nose?\n\nNah. It's a classic for a reason.",
+            "weight": 0.6
+          }
+        ]
+      },
+      {
+        "text": "Live long and (possibly) prosper",
+        "possibleOutcomes": [
+          {
+            "type": "FUEL",
+            "value": 1,
+            "text": "It's the only logical choice.\n\nSo to speak.",
+            "weight": 0.7
+          }
+        ]
+      },
+      {
+        "text": "Reboot it, yet again",
+        "possibleOutcomes": [
+          {
+            "type": "FUEL",
+            "value": 1,
+            "text": "As far as IPs go, it's got a pretty deep bench\n\nWe could do this for years to come.",
+            "weight": 0.8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "UrAnus",
+    "text": "Get it?\n\nLike YOUR ANUS!\n\nEh? Eh?",
+    "imageKey": "blackhole",
+    "characterKey": "",
+  "type": "BATTLE",
+    "options": [
+      {
+        "text": "Really?",
+        "possibleOutcomes": [
+          {
+            "type": "SCRAP",
+            "value": 1,
+            "text": "Yeah, I know...\n\nIn my defense, there were a LOT of these to have to write",
+            "weight": 0.6
+          }
+        ]
+      },
+      {
+        "text": "That feels juvenile even for a jam game.",
+        "possibleOutcomes": [
+          {
+            "type": "SCRAP",
+            "value": 1,
+            "text": "Okay, point taken...",
+            "weight": 0.7
+          }
+        ]
+      },
+      {
+        "text": "It IS a little funny, though...",
+        "possibleOutcomes": [
+          {
+            "type": "FUEL",
+            "value": 1,
+            "text": "Right?\n\nSome jokes never get old.",
+            "weight": 0.8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Space Antenna",
+    "text": "A strange piece of space technology. \n\nWhat do you do?",
+    "imageKey": "antenna",
+    "characterKey": "",
+  "type": "BATTLE",
+    "options": [
+      {
+        "text": "Let's check it out",
+        "possibleOutcomes": [
+          {
+            "type": "SCRAP",
+            "value": 1,
+            "text": "Free internet for life?!\n\nHell yeah!",
+            "weight": 0.6
+          }
+        ]
+      },
+      {
+        "text": "Maybe it's about my car's extended warranty?",
+        "possibleOutcomes": [
+          {
+            "type": "SCRAP",
+            "value": 1,
+            "text": "Is that joke overdone?\n\nI don't think so, but I'm biased.",
+            "weight": 0.7
+          }
+        ]
+      },
+      {
+        "text": "Make contact",
+        "possibleOutcomes": [
+          {
+            "type": "FUEL",
+            "value": 1,
+            "text": "You made contact, and... \n\nNot a lot happened.\n\nWorth a shot, I guess?",
+            "weight": 0.8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Shooting... Stars?",
+    "text": "More meteors. \n\nAlthough actually, wait - aren't these meteoroids?\n\nWhich one is it?",
+    "imageKey": "meteorshower",
+    "characterKey": "",
+  "type": "BATTLE",
+    "options": [
+      {
+        "text": "Meteors",
+        "possibleOutcomes": [
+          {
+            "type": "SCRAP",
+            "value": 1,
+            "text": "Meteroids, but partial credit due to ambiguity.",
+            "weight": 0.6
+          }
+        ]
+      },
+      {
+        "text": "Meteorites",
+        "possibleOutcomes": [
+          {
+            "type": "SCRAP",
+            "value": 1,
+            "text": "WRONG! \n\nThese are NOT on the Earth's surface.\n\nNo credit.",
+            "weight": 0.7
+          }
+        ]
+      },
+      {
+        "text": "Meteoroids!",
+        "possibleOutcomes": [
+          {
+            "type": "FUEL",
+            "value": 1,
+            "text": "Teacher's pet-looking motherfucker over here!\n\nNice job, but you're still a huge dork.",
+            "weight": 0.8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Supernova",
+    "text": "It's not actually a supernova. \n\nYou'd be long dead if it was.\n\nWhat do you do?",
+    "imageKey": "pulsar",
+    "characterKey": "",
+  "type": "BATTLE",
+    "options": [
+      {
+        "text": "Yeah, I know.,",
+        "possibleOutcomes": [
+          {
+            "type": "SCRAP",
+            "value": 1,
+            "text": "Can't fool you!\n\nIt was worth a shot though.\n\n",
+            "weight": 0.6
+          }
+        ]
+      },
+      {
+        "text": "A champagne supernova? In the sky?",
+        "possibleOutcomes": [
+          {
+            "type": "SCRAP",
+            "value": 1,
+            "text": "Maybe...\n\nYou're gonna be the one that saves meee...",
+            "weight": 0.7
+          }
+        ]
+      },
+      {
+        "text": "Not really that super, is it?",
+        "possibleOutcomes": [
+          {
+            "type": "FUEL",
+            "value": 1,
+            "text": "No, it's... \n\nWe've already established that. \n\nTry to keep up.",
+            "weight": 0.8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Another Black Hole",
+    "text": "So many collapsed stars out here.\n\nFeels like a cut-rate plastic surgeon's office in East LA.\n\nWhat do you do?",
+    "imageKey": "blackhole",
+    "characterKey": "",
+  "type": "BATTLE",
+    "options": [
+      {
+        "text": "Tacky joke, buddy",
+        "possibleOutcomes": [
+          {
+            "type": "SCRAP",
+            "value": 1,
+            "text": "Oh, so you're suddenly the defender of washed-up movie stars?\n\nGimme a break.",
+            "weight": 0.6
+          }
+        ]
+      },
+      {
+        "text": "Yeah - not your best work...",
+        "possibleOutcomes": [
+          {
+            "type": "SCRAP",
+            "value": 1,
+            "text": "I agree.\n\nOnly so much you can do though.",
+            "weight": 0.7
+          }
+        ]
+      },
+      {
+        "text": "Eesh",
+        "possibleOutcomes": [
+          {
+            "type": "FUEL",
+            "value": 1,
+            "text": "Yeah, I know...",
+            "weight": 0.8
+          }
+        ]
+      }
+    ]
+  }
+]

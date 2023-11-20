@@ -7,6 +7,7 @@
     <title>🎮 Lando Systems - Games</title>
 
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/game-cards.css" />
 
     <script>
       // set initial theme based on localStorage
@@ -103,9 +104,7 @@
       </nav>
     </header>
 
-    <main role="main">
-      <div>lando.systems - home/about</div>
-    </main>
+    <main role="main" class="game-cards"></main>
 
     <footer role="contentinfo">
       <div class="copyright">
@@ -131,7 +130,14 @@
       </div>
     </footer>
 
-    <script>
+    <script type="module">
+      import { games, createGameCard } from "./js/games.js";
+
+      const main = document.querySelector("main");
+      games
+        .map((game) => createGameCard(game))
+        .forEach((card) => main.appendChild(card));
+
       const copyYear = document.getElementById("copyright-year");
       copyYear.textContent = `${new Date().getFullYear()}`;
     </script>

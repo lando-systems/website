@@ -1,0 +1,3660 @@
+
+sprites.png
+size: 4096, 2048
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+arrow
+  rotate: false
+  xy: 1961, 1676
+  size: 150, 113
+  orig: 150, 113
+  offset: 0, 0
+  index: -1
+asteroids/level-1/title-asteroid-bl-1a
+  rotate: false
+  xy: 1875, 1607
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: 0
+asteroids/level-1/title-asteroid-bl-1b
+  rotate: false
+  xy: 1875, 1525
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: 0
+asteroids/level-1/title-asteroid-br-1a
+  rotate: false
+  xy: 775, 1115
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: 0
+asteroids/level-1/title-asteroid-br-1b
+  rotate: false
+  xy: 911, 821
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: 0
+asteroids/level-1/title-asteroid-tl-1a
+  rotate: false
+  xy: 1075, 821
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: 0
+asteroids/level-1/title-asteroid-tl-1b
+  rotate: false
+  xy: 937, 739
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: 0
+asteroids/level-1/title-asteroid-tr-1a
+  rotate: false
+  xy: 1101, 739
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: 0
+asteroids/level-1/title-asteroid-tr-1b
+  rotate: false
+  xy: 1101, 739
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: 0
+asteroids/level-2/title-asteroid-bl-2a
+  rotate: false
+  xy: 673, 1021
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: 0
+asteroids/level-2/title-asteroid-bl-2b
+  rotate: false
+  xy: 755, 1021
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: 0
+asteroids/level-2/title-asteroid-br-2a
+  rotate: false
+  xy: 1205, 919
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: 0
+asteroids/level-2/title-asteroid-br-2b
+  rotate: false
+  xy: 993, 821
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: 0
+asteroids/level-2/title-asteroid-br-2c
+  rotate: false
+  xy: 993, 821
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: 0
+asteroids/level-2/title-asteroid-tl-2a
+  rotate: false
+  xy: 1019, 739
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: 0
+asteroids/level-2/title-asteroid-tl-2b
+  rotate: false
+  xy: 1017, 657
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: 0
+asteroids/level-2/title-asteroid-tl-2c
+  rotate: false
+  xy: 1017, 657
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: 0
+asteroids/level-2/title-asteroid-tr-2a
+  rotate: false
+  xy: 1099, 657
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: 0
+asteroids/level-2/title-asteroid-tr-2b
+  rotate: false
+  xy: 1157, 821
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: 0
+asteroids/level-2/title-asteroid-tr-2c
+  rotate: false
+  xy: 1183, 739
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: 0
+asteroids/level-3/title-asteroid-bl-3a
+  rotate: false
+  xy: 317, 609
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 0
+asteroids/level-3/title-asteroid-bl-3b
+  rotate: false
+  xy: 439, 609
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 0
+asteroids/level-3/title-asteroid-br-3a
+  rotate: false
+  xy: 3387, 1409
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 0
+asteroids/level-3/title-asteroid-br-3b
+  rotate: false
+  xy: 3509, 1409
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 0
+asteroids/level-3/title-asteroid-tl-3a
+  rotate: false
+  xy: 3631, 1363
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 0
+asteroids/level-3/title-asteroid-tl-3b
+  rotate: false
+  xy: 3753, 1363
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 0
+asteroids/level-3/title-asteroid-tr-3a
+  rotate: false
+  xy: 3875, 1375
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 0
+asteroids/level-3/title-asteroid-tr-3b
+  rotate: false
+  xy: 2477, 1279
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 0
+asteroids/level-4/title-asteroid-bl-4a
+  rotate: false
+  xy: 3921, 1887
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: 0
+asteroids/level-4/title-asteroid-br-4a
+  rotate: false
+  xy: 505, 1497
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: 0
+asteroids/level-4/title-asteroid-tl-4a
+  rotate: false
+  xy: 511, 1335
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: 0
+asteroids/level-4/title-asteroid-tr-4a
+  rotate: false
+  xy: 511, 1173
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: 0
+asteroids/level-4/title-asteroid-tr-4b
+  rotate: false
+  xy: 511, 1011
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: 0
+batteries/battery-empty
+  rotate: false
+  xy: 439, 1019
+  size: 64, 36
+  orig: 64, 36
+  offset: 0, 0
+  index: 0
+batteries/battery-empty
+  rotate: false
+  xy: 3717, 1773
+  size: 64, 36
+  orig: 64, 36
+  offset: 0, 0
+  index: 1
+batteries/battery-green
+  rotate: false
+  xy: 1067, 421
+  size: 64, 36
+  orig: 64, 36
+  offset: 0, 0
+  index: -1
+batteries/battery-orange
+  rotate: false
+  xy: 1133, 487
+  size: 64, 36
+  orig: 64, 36
+  offset: 0, 0
+  index: -1
+batteries/battery-red
+  rotate: false
+  xy: 1133, 449
+  size: 64, 36
+  orig: 64, 36
+  offset: 0, 0
+  index: -1
+batteries/battery-yellow
+  rotate: false
+  xy: 1133, 411
+  size: 64, 36
+  orig: 64, 36
+  offset: 0, 0
+  index: -1
+debris/debris-astrodog-a
+  rotate: false
+  xy: 821, 1
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 0
+debris/debris-astronaut-a
+  rotate: false
+  xy: 855, 1
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 0
+debris/debris-astronaut-b
+  rotate: false
+  xy: 4049, 1853
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 0
+debris/debris-girl-a
+  rotate: false
+  xy: 2049, 1446
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 0
+debris/debris-girl-b
+  rotate: false
+  xy: 2441, 1345
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 0
+debris/debris-rocket-a
+  rotate: false
+  xy: 293, 355
+  size: 48, 248
+  orig: 48, 248
+  offset: 0, 0
+  index: 0
+debris/debris-rocket-b
+  rotate: false
+  xy: 259, 273
+  size: 32, 330
+  orig: 32, 330
+  offset: 0, 0
+  index: 0
+debris/debris-rocket-c
+  rotate: false
+  xy: 259, 605
+  size: 56, 380
+  orig: 56, 380
+  offset: 0, 0
+  index: 0
+debris/debris-rocket-d
+  rotate: false
+  xy: 259, 987
+  size: 48, 432
+  orig: 48, 432
+  offset: 0, 0
+  index: 0
+debris/debris-shuttle
+  rotate: false
+  xy: 3067, 1661
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 0
+debris/debris-skeleton-a
+  rotate: false
+  xy: 1303, 1027
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 0
+debris/items-6pack
+  rotate: false
+  xy: 4037, 1717
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 0
+debris/items-chair
+  rotate: false
+  xy: 317, 731
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 0
+debris/items-tv-idle
+  rotate: false
+  xy: 707, 751
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+debris/items-tv-on
+  rotate: false
+  xy: 773, 751
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+debris/tombstone
+  rotate: false
+  xy: 1013, 111
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+effects/shield
+  rotate: false
+  xy: 1067, 525
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+effects/shield
+  rotate: false
+  xy: 1067, 459
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 1
+effects/shield
+  rotate: false
+  xy: 1133, 591
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 2
+encounters/arwing/starfox-arwing
+  rotate: false
+  xy: 1355, 1669
+  size: 200, 120
+  orig: 200, 120
+  offset: 0, 0
+  index: 0
+encounters/catonaut/catonaut-chat
+  rotate: false
+  xy: 2547, 1661
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 0
+encounters/catonaut/catonaut-chat
+  rotate: false
+  xy: 2677, 1661
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 1
+encounters/catonaut/catonaut-chat
+  rotate: false
+  xy: 2677, 1661
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 2
+encounters/catonaut/catonaut-chat
+  rotate: false
+  xy: 2807, 1661
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 3
+encounters/catonaut/catonaut-chat
+  rotate: false
+  xy: 2937, 1661
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 4
+encounters/deathstar/deathstar
+  rotate: false
+  xy: 303, 1461
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: 0
+encounters/dogonaut/doggonaut-chat
+  rotate: false
+  xy: 3197, 1661
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 0
+encounters/dogonaut/doggonaut-chat
+  rotate: false
+  xy: 3327, 1661
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 1
+encounters/dogonaut/doggonaut-chat
+  rotate: false
+  xy: 3457, 1661
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 2
+encounters/dogonaut/doggonaut-chat
+  rotate: false
+  xy: 3587, 1681
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 3
+encounters/dogonaut/doggonaut-chat
+  rotate: false
+  xy: 3789, 1763
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 4
+encounters/emporer/emporer-chat
+  rotate: false
+  xy: 3919, 1757
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 0
+encounters/emporer/emporer-chat
+  rotate: false
+  xy: 1355, 1539
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 1
+encounters/emporer/emporer-chat
+  rotate: false
+  xy: 1485, 1539
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 2
+encounters/emporer/emporer-chat
+  rotate: false
+  xy: 1615, 1559
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 3
+encounters/emporer/emporer-chat
+  rotate: false
+  xy: 1745, 1559
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 4
+encounters/emporer/emporer-chat
+  rotate: false
+  xy: 317, 861
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 5
+encounters/enterprise/startrek-enterprise
+  rotate: false
+  xy: 1759, 1689
+  size: 200, 100
+  orig: 200, 100
+  offset: 0, 0
+  index: 0
+encounters/mal9000/mal-9000-chat-a/mal-9000-chat-a
+  rotate: false
+  xy: 343, 479
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 0
+encounters/mal9000/mal-9000-idle/mal-9000-idle
+  rotate: false
+  xy: 343, 479
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 2
+encounters/mal9000/mal-9000-idle/mal-9000-idle
+  rotate: false
+  xy: 343, 479
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 0
+encounters/mal9000/mal-9000-idle/mal-9000-idle
+  rotate: false
+  xy: 343, 479
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 4
+encounters/mal9000/mal-9000-chat-a/mal-9000-chat-a
+  rotate: false
+  xy: 343, 349
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 1
+encounters/mal9000/mal-9000-idle/mal-9000-idle
+  rotate: false
+  xy: 343, 349
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 1
+encounters/mal9000/mal-9000-chat-a/mal-9000-chat-a
+  rotate: false
+  xy: 447, 881
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 2
+encounters/mal9000/mal-9000-chat-a/mal-9000-chat-a
+  rotate: false
+  xy: 447, 751
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 3
+encounters/mal9000/mal-9000-chat-a/mal-9000-chat-a
+  rotate: false
+  xy: 577, 881
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 4
+encounters/mal9000/mal-9000-chat-a/mal-9000-chat-a
+  rotate: false
+  xy: 577, 751
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 5
+encounters/mal9000/mal-9000-chat-a/mal-9000-chat-a
+  rotate: false
+  xy: 259, 143
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 6
+encounters/mal9000/mal-9000-chat-a/mal-9000-chat-a
+  rotate: false
+  xy: 261, 13
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 7
+encounters/mal9000/mal-9000-chat-a/mal-9000-chat-a
+  rotate: false
+  xy: 1957, 1546
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 8
+encounters/mal9000/mal-9000-chat-a/mal-9000-chat-a
+  rotate: false
+  xy: 2087, 1509
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 9
+encounters/mal9000/mal-9000-chat-a/mal-9000-chat-a
+  rotate: false
+  xy: 2217, 1509
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 10
+encounters/mal9000/mal-9000-chat-a/mal-9000-chat-a
+  rotate: false
+  xy: 2347, 1509
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 11
+encounters/mal9000/mal-9000-chat-a/mal-9000-chat-a
+  rotate: false
+  xy: 2477, 1531
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 12
+encounters/mal9000/mal-9000-chat-a/mal-9000-chat-a
+  rotate: false
+  xy: 2607, 1531
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 13
+encounters/mal9000/mal-9000-chat-a/mal-9000-chat-a
+  rotate: false
+  xy: 2737, 1531
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 14
+encounters/mal9000/mal-9000-idle/mal-9000-idle
+  rotate: false
+  xy: 2867, 1531
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 3
+encounters/nagilum/Nagilum-idle
+  rotate: false
+  xy: 1, 1
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 0
+encounters/nagilum/Nagilum-idle
+  rotate: false
+  xy: 131, 1
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 1
+encounters/nagilum/Nagilum-idle
+  rotate: false
+  xy: 131, 1
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 3
+encounters/nagilum/Nagilum-idle
+  rotate: false
+  xy: 2417, 1661
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 2
+encounters/normandy/masseffect-normandy
+  rotate: false
+  xy: 1557, 1689
+  size: 200, 100
+  orig: 200, 100
+  offset: 0, 0
+  index: 0
+encounters/odyssey/2001
+  rotate: false
+  xy: 547, 1659
+  size: 200, 130
+  orig: 200, 130
+  offset: 0, 0
+  index: 0
+encounters/philosoraptor/philosoraptor-chat
+  rotate: false
+  xy: 2997, 1531
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 0
+encounters/philosoraptor/philosoraptor-chat
+  rotate: false
+  xy: 2997, 1531
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 3
+encounters/philosoraptor/philosoraptor-chat
+  rotate: false
+  xy: 3127, 1531
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 1
+encounters/philosoraptor/philosoraptor-chat
+  rotate: false
+  xy: 3257, 1531
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 2
+encounters/philosoraptor/philosoraptor-chat
+  rotate: false
+  xy: 3387, 1531
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 4
+encounters/pod-city/pod-city
+  rotate: false
+  xy: 733, 491
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 0
+encounters/pod-city/pod-city
+  rotate: false
+  xy: 733, 361
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 1
+encounters/pod-city/pod-city
+  rotate: false
+  xy: 389, 219
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 2
+encounters/pod-city/pod-city
+  rotate: false
+  xy: 519, 219
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 3
+encounters/rv/spaceballs-rv
+  rotate: false
+  xy: 3385, 1791
+  size: 200, 100
+  orig: 200, 100
+  offset: 0, 0
+  index: 0
+encounters/starve-fox/starve-fox-chat-a/starve-fox_chat-a
+  rotate: false
+  xy: 2867, 1401
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 1
+encounters/starve-fox/starve-fox-chat-a/starve-fox_chat-a
+  rotate: false
+  xy: 2997, 1401
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 2
+encounters/starve-fox/starve-fox-chat-a/starve-fox_chat-a
+  rotate: false
+  xy: 3127, 1401
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 3
+encounters/starve-fox/starve-fox-chat-a/starve-fox_chat-a
+  rotate: false
+  xy: 3257, 1401
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 4
+encounters/starve-fox/starve-fox-chat-b/starve-fox-chat-b
+  rotate: false
+  xy: 649, 231
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 0
+encounters/starve-fox/starve-fox-chat-a/starve-fox_chat-a
+  rotate: false
+  xy: 649, 231
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 0
+encounters/starve-fox/starve-fox-idle/starve-fox-idle
+  rotate: false
+  xy: 649, 231
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 0
+encounters/starve-fox/starve-fox-idle/starve-fox-idle
+  rotate: false
+  xy: 649, 231
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 6
+encounters/starve-fox/starve-fox-chat-b/starve-fox-chat-b
+  rotate: false
+  xy: 779, 231
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 1
+encounters/starve-fox/starve-fox-chat-b/starve-fox-chat-b
+  rotate: false
+  xy: 391, 23
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 2
+encounters/starve-fox/starve-fox-chat-b/starve-fox-chat-b
+  rotate: false
+  xy: 521, 23
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 3
+encounters/starve-fox/starve-fox-chat-b/starve-fox-chat-b
+  rotate: false
+  xy: 521, 23
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 8
+encounters/starve-fox/starve-fox-chat-b/starve-fox-chat-b
+  rotate: false
+  xy: 651, 35
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 4
+encounters/starve-fox/starve-fox-chat-b/starve-fox-chat-b
+  rotate: false
+  xy: 781, 35
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 5
+encounters/starve-fox/starve-fox-chat-b/starve-fox-chat-b
+  rotate: false
+  xy: 781, 35
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 7
+encounters/starve-fox/starve-fox-chat-b/starve-fox-chat-b
+  rotate: false
+  xy: 2087, 1379
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 6
+encounters/starve-fox/starve-fox-idle/starve-fox-idle
+  rotate: false
+  xy: 2217, 1379
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 1
+encounters/starve-fox/starve-fox-idle/starve-fox-idle
+  rotate: false
+  xy: 2347, 1379
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 2
+encounters/starve-fox/starve-fox-idle/starve-fox-idle
+  rotate: false
+  xy: 2477, 1401
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 3
+encounters/starve-fox/starve-fox-idle/starve-fox-idle
+  rotate: false
+  xy: 2607, 1401
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 4
+encounters/starve-fox/starve-fox-idle/starve-fox-idle
+  rotate: false
+  xy: 2737, 1401
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 5
+fuzzy-circle
+  rotate: false
+  xy: 667, 1511
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+icons/heart
+  rotate: false
+  xy: 1289, 1491
+  size: 32, 30
+  orig: 32, 30
+  offset: 0, 0
+  index: -1
+icons/input-prompts
+  rotate: false
+  xy: 1, 1663
+  size: 544, 384
+  orig: 544, 384
+  offset: 0, 0
+  index: -1
+icons/lock
+  rotate: false
+  xy: 863, 368
+  size: 44, 47
+  orig: 44, 47
+  offset: 0, 0
+  index: -1
+launch-arrow/launch-arrow
+  rotate: false
+  xy: 309, 991
+  size: 128, 64
+  orig: 128, 64
+  offset: 0, 0
+  index: 0
+launch-arrow/launch-arrow
+  rotate: false
+  xy: 1957, 1480
+  size: 128, 64
+  orig: 128, 64
+  offset: 0, 0
+  index: 1
+launch-arrow/launch-arrow
+  rotate: false
+  xy: 3647, 1485
+  size: 128, 64
+  orig: 128, 64
+  offset: 0, 0
+  index: 2
+launch-arrow/launch-arrow
+  rotate: false
+  xy: 389, 153
+  size: 128, 64
+  orig: 128, 64
+  offset: 0, 0
+  index: 3
+launch-arrow/launch-arrow
+  rotate: false
+  xy: 519, 153
+  size: 128, 64
+  orig: 128, 64
+  offset: 0, 0
+  index: 4
+launch-arrow/launch-arrow
+  rotate: false
+  xy: 649, 165
+  size: 128, 64
+  orig: 128, 64
+  offset: 0, 0
+  index: 5
+launch-arrow/launch-arrow
+  rotate: false
+  xy: 779, 165
+  size: 128, 64
+  orig: 128, 64
+  offset: 0, 0
+  index: 6
+ninepatch/debug
+  rotate: false
+  xy: 293, 292
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+ninepatch/glass
+  rotate: false
+  xy: 2701, 1299
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ninepatch/glass-active
+  rotate: false
+  xy: 2803, 1299
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ninepatch/glass-blue
+  rotate: false
+  xy: 2905, 1299
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ninepatch/glass-corner-bl
+  rotate: false
+  xy: 3007, 1299
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ninepatch/glass-corner-br
+  rotate: false
+  xy: 3109, 1299
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ninepatch/glass-corner-tl
+  rotate: false
+  xy: 3211, 1299
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ninepatch/glass-corner-tr
+  rotate: false
+  xy: 3313, 1299
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ninepatch/glass-corners
+  rotate: false
+  xy: 3415, 1307
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ninepatch/glass-dark
+  rotate: false
+  xy: 3517, 1307
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ninepatch/glass-dim
+  rotate: false
+  xy: 3619, 1261
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ninepatch/glass-dim-down
+  rotate: false
+  xy: 3721, 1261
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ninepatch/glass-dim-left
+  rotate: false
+  xy: 3823, 1261
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ninepatch/glass-dim-point
+  rotate: false
+  xy: 3925, 1273
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ninepatch/glass-dim-right
+  rotate: false
+  xy: 673, 1409
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ninepatch/glass-dim-up
+  rotate: false
+  xy: 673, 1307
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ninepatch/glass-green
+  rotate: false
+  xy: 673, 1205
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ninepatch/glass-red
+  rotate: false
+  xy: 673, 1103
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ninepatch/glass-red-2
+  rotate: false
+  xy: 707, 919
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ninepatch/glass-red-3
+  rotate: false
+  xy: 707, 817
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ninepatch/glass-tab
+  rotate: false
+  xy: 2599, 1287
+  size: 100, 112
+  orig: 100, 112
+  offset: 0, 0
+  index: -1
+ninepatch/glass-thick
+  rotate: false
+  xy: 809, 919
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ninepatch/glass-yellow
+  rotate: false
+  xy: 809, 817
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ninepatch/metal
+  rotate: false
+  xy: 863, 519
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ninepatch/metal-blue
+  rotate: false
+  xy: 863, 417
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ninepatch/metal-blue-corner
+  rotate: false
+  xy: 965, 519
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ninepatch/metal-green
+  rotate: false
+  xy: 965, 417
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ninepatch/metal-green-corner
+  rotate: false
+  xy: 909, 315
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ninepatch/metal-plate
+  rotate: false
+  xy: 667, 1577
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+ninepatch/metal-red
+  rotate: false
+  xy: 909, 213
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ninepatch/metal-red-corner
+  rotate: false
+  xy: 1011, 315
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ninepatch/metal-yellow
+  rotate: false
+  xy: 1011, 213
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ninepatch/metal-yellow-corner
+  rotate: false
+  xy: 911, 111
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ninepatch/panel
+  rotate: false
+  xy: 733, 1511
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+ninepatch/plain
+  rotate: false
+  xy: 3517, 1531
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ninepatch/plain-dim
+  rotate: false
+  xy: 3647, 1551
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ninepatch/plain-gradient
+  rotate: false
+  xy: 3777, 1633
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ninepatch/plain-gradient-highlight-green
+  rotate: false
+  xy: 3907, 1627
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ninepatch/plain-gradient-highlight-red
+  rotate: false
+  xy: 3777, 1503
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ninepatch/plain-gradient-highlight-yellow
+  rotate: false
+  xy: 3907, 1497
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ninepatch/shear
+  rotate: false
+  xy: 1, 1421
+  size: 300, 240
+  orig: 300, 240
+  offset: 0, 0
+  index: -1
+particles/circle
+  rotate: false
+  xy: 3777, 1485
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+particles/dollars
+  rotate: false
+  xy: 1557, 1669
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+particles/font-points-0
+  rotate: false
+  xy: 561, 609
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: 0
+particles/font-points-1
+  rotate: false
+  xy: 603, 349
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: 0
+particles/font-points-2
+  rotate: false
+  xy: 3875, 1363
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: 0
+particles/font-points-3
+  rotate: false
+  xy: 749, 1577
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: 0
+particles/font-points-4
+  rotate: false
+  xy: 775, 1103
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: 0
+particles/font-points-5
+  rotate: false
+  xy: 2701, 1287
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: 0
+particles/font-points-6
+  rotate: false
+  xy: 837, 1021
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: 0
+particles/font-points-7
+  rotate: false
+  xy: 261, 1
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: 0
+particles/font-points-8
+  rotate: false
+  xy: 1337, 1049
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: 0
+particles/font-points-9
+  rotate: false
+  xy: 3925, 1261
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: 0
+particles/kenney/circle
+  rotate: false
+  xy: 651, 1
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 1
+particles/kenney/circle
+  rotate: false
+  xy: 685, 1
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+particles/kenney/circle
+  rotate: false
+  xy: 719, 1
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+particles/kenney/circle
+  rotate: false
+  xy: 753, 1
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 4
+particles/kenney/circle
+  rotate: false
+  xy: 787, 1
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 5
+particles/kenney/dirt
+  rotate: false
+  xy: 1199, 454
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 1
+particles/kenney/dirt
+  rotate: false
+  xy: 4049, 1819
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+particles/kenney/dirt
+  rotate: false
+  xy: 2049, 1412
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+particles/kenney/fire
+  rotate: false
+  xy: 1337, 1015
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 1
+particles/kenney/fire
+  rotate: false
+  xy: 1371, 1015
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+particles/kenney/flame
+  rotate: false
+  xy: 1405, 1015
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 1
+particles/kenney/flame
+  rotate: false
+  xy: 1439, 1015
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+particles/kenney/flame
+  rotate: false
+  xy: 1473, 1015
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+particles/kenney/flame
+  rotate: false
+  xy: 1507, 1015
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 4
+particles/kenney/flame
+  rotate: false
+  xy: 1541, 1015
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 5
+particles/kenney/flame
+  rotate: false
+  xy: 1575, 1015
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 6
+particles/kenney/flare
+  rotate: false
+  xy: 1609, 1015
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 1
+particles/kenney/light
+  rotate: false
+  xy: 4037, 1547
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 1
+particles/kenney/light
+  rotate: false
+  xy: 4037, 1513
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+particles/kenney/light
+  rotate: false
+  xy: 1247, 705
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+particles/kenney/magic
+  rotate: false
+  xy: 1251, 645
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 1
+particles/kenney/magic
+  rotate: false
+  xy: 1251, 611
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+particles/kenney/magic
+  rotate: false
+  xy: 1251, 577
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+particles/kenney/magic
+  rotate: false
+  xy: 1251, 543
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 4
+particles/kenney/magic
+  rotate: false
+  xy: 1251, 509
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 5
+particles/kenney/muzzle
+  rotate: false
+  xy: 327, 289
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 1
+particles/kenney/muzzle
+  rotate: false
+  xy: 1265, 790
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+particles/kenney/muzzle
+  rotate: false
+  xy: 1265, 756
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+particles/kenney/muzzle
+  rotate: false
+  xy: 1321, 967
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 4
+particles/kenney/muzzle
+  rotate: false
+  xy: 1321, 933
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 5
+particles/kenney/scorch
+  rotate: false
+  xy: 1305, 899
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 1
+particles/kenney/scorch
+  rotate: false
+  xy: 1305, 865
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+particles/kenney/scorch
+  rotate: false
+  xy: 1355, 981
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+particles/kenney/scratch
+  rotate: false
+  xy: 1355, 947
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 1
+particles/kenney/slash
+  rotate: false
+  xy: 1389, 981
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 1
+particles/kenney/slash
+  rotate: false
+  xy: 1389, 947
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+particles/kenney/slash
+  rotate: false
+  xy: 1423, 981
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+particles/kenney/slash
+  rotate: false
+  xy: 1423, 947
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 4
+particles/kenney/smoke
+  rotate: false
+  xy: 1457, 981
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 1
+particles/kenney/smoke
+  rotate: false
+  xy: 1457, 947
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+particles/kenney/smoke
+  rotate: false
+  xy: 1491, 981
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+particles/kenney/smoke
+  rotate: false
+  xy: 1491, 947
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 4
+particles/kenney/smoke
+  rotate: false
+  xy: 1525, 981
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 5
+particles/kenney/smoke
+  rotate: false
+  xy: 1525, 947
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 6
+particles/kenney/smoke
+  rotate: false
+  xy: 1559, 981
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 7
+particles/kenney/smoke
+  rotate: false
+  xy: 1559, 947
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 8
+particles/kenney/smoke
+  rotate: false
+  xy: 1593, 981
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 9
+particles/kenney/smoke
+  rotate: false
+  xy: 1593, 947
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 10
+particles/kenney/spark
+  rotate: false
+  xy: 1246, 475
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 1
+particles/kenney/spark
+  rotate: false
+  xy: 1233, 441
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+particles/kenney/spark
+  rotate: false
+  xy: 1233, 407
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+particles/kenney/spark
+  rotate: false
+  xy: 1199, 386
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 4
+particles/kenney/spark
+  rotate: false
+  xy: 1233, 373
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 5
+particles/kenney/spark
+  rotate: false
+  xy: 1339, 899
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 6
+particles/kenney/spark
+  rotate: false
+  xy: 1339, 865
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 7
+particles/kenney/star
+  rotate: false
+  xy: 3979, 1137
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 1
+particles/kenney/star
+  rotate: false
+  xy: 3945, 1069
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+particles/kenney/star
+  rotate: false
+  xy: 3979, 1103
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+particles/kenney/star
+  rotate: false
+  xy: 3945, 1035
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 4
+particles/kenney/star
+  rotate: false
+  xy: 3979, 1069
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 5
+particles/kenney/star
+  rotate: false
+  xy: 3945, 1001
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 6
+particles/kenney/star
+  rotate: false
+  xy: 3979, 1035
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 7
+particles/kenney/star
+  rotate: false
+  xy: 3979, 1001
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 8
+particles/kenney/star
+  rotate: false
+  xy: 3911, 955
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 9
+particles/kenney/symbol
+  rotate: false
+  xy: 3945, 967
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 1
+particles/kenney/symbol
+  rotate: false
+  xy: 3979, 967
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+particles/kenney/trace
+  rotate: false
+  xy: 4013, 1233
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 1
+particles/kenney/trace
+  rotate: false
+  xy: 4013, 1199
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+particles/kenney/trace
+  rotate: false
+  xy: 4047, 1233
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+particles/kenney/trace
+  rotate: false
+  xy: 4013, 1165
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 4
+particles/kenney/trace
+  rotate: false
+  xy: 4047, 1199
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 5
+particles/kenney/trace
+  rotate: false
+  xy: 4013, 1131
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 6
+particles/kenney/trace
+  rotate: false
+  xy: 4047, 1165
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 7
+particles/kenney/twirl
+  rotate: false
+  xy: 4013, 1097
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 1
+particles/kenney/twirl
+  rotate: false
+  xy: 4047, 1131
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+particles/kenney/twirl
+  rotate: false
+  xy: 4013, 1063
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+particles/kenney/window
+  rotate: false
+  xy: 4047, 1097
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 1
+particles/kenney/window
+  rotate: false
+  xy: 4013, 1029
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+particles/kenney/window
+  rotate: false
+  xy: 4047, 1063
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+particles/kenney/window
+  rotate: false
+  xy: 4013, 995
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 4
+particles/line
+  rotate: false
+  xy: 821, 733
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+particles/ring
+  rotate: false
+  xy: 3795, 1485
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+particles/smoke
+  rotate: false
+  xy: 1133, 525
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+particles/splats/splat
+  rotate: false
+  xy: 1373, 913
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 0
+particles/splats/splat
+  rotate: false
+  xy: 1373, 879
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 1
+particles/splats/splat
+  rotate: false
+  xy: 1407, 913
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+particles/splats/splat
+  rotate: false
+  xy: 1407, 879
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+particles/splats/splat
+  rotate: false
+  xy: 1441, 913
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 4
+particles/splats/splat
+  rotate: false
+  xy: 1441, 879
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 5
+particles/splats/splat
+  rotate: false
+  xy: 1475, 913
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 6
+particles/splats/splat
+  rotate: false
+  xy: 1475, 879
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 7
+particles/splats/splat
+  rotate: false
+  xy: 1509, 913
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 8
+particles/splats/splat
+  rotate: false
+  xy: 1509, 879
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 9
+particles/splats/splat
+  rotate: false
+  xy: 1543, 913
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 10
+particles/splats/splat
+  rotate: false
+  xy: 1543, 879
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 11
+particles/splats/splat
+  rotate: false
+  xy: 1577, 913
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 12
+particles/splats/splat
+  rotate: false
+  xy: 1577, 879
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 13
+particles/splats/splat
+  rotate: false
+  xy: 1627, 981
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 14
+particles/splats/splat
+  rotate: false
+  xy: 1627, 947
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 15
+particles/splats/splat
+  rotate: false
+  xy: 1611, 913
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 16
+particles/splats/splat
+  rotate: false
+  xy: 1611, 879
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 17
+particles/splats/splat
+  rotate: false
+  xy: 1645, 913
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 18
+particles/splats/splat
+  rotate: false
+  xy: 1645, 879
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 19
+particles/splats/splat
+  rotate: false
+  xy: 3911, 1227
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 20
+particles/splats/splat
+  rotate: false
+  xy: 3911, 1193
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 21
+particles/splats/splat
+  rotate: false
+  xy: 3911, 1159
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 22
+particles/splats/splat
+  rotate: false
+  xy: 3911, 1125
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 23
+particles/splats/splat
+  rotate: false
+  xy: 3911, 1091
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 24
+particles/splats/splat
+  rotate: false
+  xy: 3911, 1057
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 25
+particles/splats/splat
+  rotate: false
+  xy: 3911, 1023
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 26
+particles/splats/splat
+  rotate: false
+  xy: 3911, 989
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 27
+particles/splats/splat
+  rotate: false
+  xy: 3945, 1239
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 28
+particles/splats/splat
+  rotate: false
+  xy: 3945, 1205
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 29
+particles/splats/splat
+  rotate: false
+  xy: 3979, 1239
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 30
+particles/splats/splat
+  rotate: false
+  xy: 3945, 1171
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 31
+particles/splats/splat
+  rotate: false
+  xy: 3979, 1205
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 32
+particles/splats/splat
+  rotate: false
+  xy: 3945, 1137
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 33
+particles/splats/splat
+  rotate: false
+  xy: 3979, 1171
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 34
+particles/splats/splat
+  rotate: false
+  xy: 3945, 1103
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 35
+pets/cat
+  rotate: false
+  xy: 1303, 1001
+  size: 32, 24
+  orig: 32, 24
+  offset: 0, 0
+  index: 0
+pets/cat
+  rotate: false
+  xy: 2049, 1386
+  size: 32, 24
+  orig: 32, 24
+  offset: 0, 0
+  index: 1
+pets/cat
+  rotate: false
+  xy: 2441, 1285
+  size: 32, 24
+  orig: 32, 24
+  offset: 0, 0
+  index: 2
+pets/cat
+  rotate: false
+  xy: 1323, 1497
+  size: 32, 24
+  orig: 32, 24
+  offset: 0, 0
+  index: 3
+pets/cat
+  rotate: false
+  xy: 340, 323
+  size: 32, 24
+  orig: 32, 24
+  offset: 0, 0
+  index: 4
+pets/cat
+  rotate: false
+  xy: 1247, 679
+  size: 32, 24
+  orig: 32, 24
+  offset: 0, 0
+  index: 5
+pets/dog
+  rotate: false
+  xy: 2441, 1311
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 0
+pets/dog
+  rotate: false
+  xy: 1199, 420
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 1
+pets/dog
+  rotate: false
+  xy: 4049, 1785
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+pets/dog
+  rotate: false
+  xy: 4049, 1751
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+pets/dog
+  rotate: false
+  xy: 1287, 967
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 4
+pets/dog
+  rotate: false
+  xy: 1287, 933
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 5
+pets/kitten
+  rotate: false
+  xy: 4037, 1683
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 0
+pets/kitten
+  rotate: false
+  xy: 4037, 1649
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 1
+pets/kitten
+  rotate: false
+  xy: 4037, 1615
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+pets/kitten
+  rotate: false
+  xy: 4037, 1581
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+pets/ross-dog
+  rotate: false
+  xy: 293, 326
+  size: 45, 27
+  orig: 45, 27
+  offset: 0, 0
+  index: 0
+pets/ross-dog
+  rotate: false
+  xy: 3717, 1692
+  size: 45, 27
+  orig: 45, 27
+  offset: 0, 0
+  index: 1
+pets/ross-dog
+  rotate: false
+  xy: 1239, 824
+  size: 45, 27
+  orig: 45, 27
+  offset: 0, 0
+  index: 2
+pets/ross-dog
+  rotate: false
+  xy: 1017, 628
+  size: 45, 27
+  orig: 45, 27
+  offset: 0, 0
+  index: 3
+pets/ross-dog
+  rotate: false
+  xy: 1199, 488
+  size: 45, 27
+  orig: 45, 27
+  offset: 0, 0
+  index: 4
+pets/white-lab-dog
+  rotate: false
+  xy: 1303, 1061
+  size: 42, 36
+  orig: 42, 36
+  offset: 0, 0
+  index: -1
+pickups-fuel/pickup-fuel
+  rotate: false
+  xy: 1289, 1523
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+pickups-fuel/pickup-fuel
+  rotate: false
+  xy: 1181, 673
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 1
+pickups-fuel/pickup-fuel
+  rotate: false
+  xy: 837, 1033
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 2
+pickups-fuel/pickup-fuel
+  rotate: false
+  xy: 4027, 1333
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 3
+pickups-fuel/pickup-fuel
+  rotate: false
+  xy: 4027, 1267
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 4
+pickups-fuel/pickup-fuel
+  rotate: false
+  xy: 1239, 853
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 5
+pixel
+  rotate: false
+  xy: 1064, 654
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+planets/asteroidfield/asteroidfield
+  rotate: false
+  xy: 3997, 1399
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 0
+planets/asteroidfield/asteroidfield
+  rotate: false
+  xy: 839, 719
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 1
+planets/asteroidfield/asteroidfield
+  rotate: false
+  xy: 821, 621
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 2
+planets/asteroidfield/asteroidfield
+  rotate: false
+  xy: 919, 621
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 3
+planets/asteroidfield/asteroidfield
+  rotate: false
+  xy: 911, 13
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 4
+planets/blackhole/blackhole
+  rotate: false
+  xy: 1009, 13
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 0
+planets/blackhole/blackhole
+  rotate: false
+  xy: 799, 1491
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 1
+planets/blackhole/blackhole
+  rotate: false
+  xy: 897, 1491
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 3
+planets/blackhole/gas-spin
+  rotate: false
+  xy: 1461, 1343
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 0
+planets/gas/gas-spin
+  rotate: false
+  xy: 1461, 1343
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 0
+planets/blackhole/gas-spin
+  rotate: false
+  xy: 1461, 1245
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 1
+planets/gas/gas-spin
+  rotate: false
+  xy: 1461, 1245
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 1
+planets/earth/earth-spin
+  rotate: false
+  xy: 995, 1491
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 0
+planets/earth/earth-spin
+  rotate: false
+  xy: 1093, 1491
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 1
+planets/earth/earth-spin
+  rotate: false
+  xy: 1191, 1491
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 2
+planets/earth/earth-spin
+  rotate: false
+  xy: 775, 1393
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 3
+planets/earth/earth-spin
+  rotate: false
+  xy: 775, 1295
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 4
+planets/earth/earth-spin
+  rotate: false
+  xy: 873, 1393
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 5
+planets/earth/earth-spin
+  rotate: false
+  xy: 775, 1197
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 6
+planets/earth/earth-spin
+  rotate: false
+  xy: 971, 1393
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 7
+planets/earth/earth-spin
+  rotate: false
+  xy: 873, 1295
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 8
+planets/earth/earth-spin
+  rotate: false
+  xy: 1069, 1393
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 9
+planets/earth/earth-spin
+  rotate: false
+  xy: 873, 1197
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 10
+planets/earth/earth-spin
+  rotate: false
+  xy: 971, 1295
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 11
+planets/earth/earth-spin
+  rotate: false
+  xy: 1167, 1393
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 12
+planets/earth/earth-spin
+  rotate: false
+  xy: 1069, 1295
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 13
+planets/earth/earth-spin
+  rotate: false
+  xy: 971, 1197
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 14
+planets/earth/earth-spin
+  rotate: false
+  xy: 1167, 1295
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 15
+planets/earth/earth-spin
+  rotate: false
+  xy: 1069, 1197
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 16
+planets/earth/earth-spin
+  rotate: false
+  xy: 1167, 1197
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 17
+planets/earth/earth-spin
+  rotate: false
+  xy: 857, 1099
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 18
+planets/earth/earth-spin
+  rotate: false
+  xy: 955, 1099
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 19
+planets/earth/earth-spin
+  rotate: false
+  xy: 1053, 1099
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 20
+planets/earth/earth-spin
+  rotate: false
+  xy: 1151, 1099
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 21
+planets/earth/earth-spin
+  rotate: false
+  xy: 1265, 1393
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 22
+planets/earth/earth-spin
+  rotate: false
+  xy: 1265, 1295
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 23
+planets/earth/earth-spin
+  rotate: false
+  xy: 1265, 1197
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 24
+planets/earth/earth-spin
+  rotate: false
+  xy: 1249, 1099
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 25
+planets/earth/earth-spin
+  rotate: false
+  xy: 1363, 1441
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 26
+planets/earth/earth-spin
+  rotate: false
+  xy: 1461, 1441
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 27
+planets/earth/earth-spin
+  rotate: false
+  xy: 1363, 1343
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 28
+planets/earth/earth-spin
+  rotate: false
+  xy: 1363, 1245
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 29
+planets/gas/gas-spin
+  rotate: false
+  xy: 1559, 1441
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 2
+planets/gas/gas-spin
+  rotate: false
+  xy: 1559, 1343
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 3
+planets/gas/gas-spin
+  rotate: false
+  xy: 1559, 1245
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 4
+planets/gas/gas-spin
+  rotate: false
+  xy: 1657, 1461
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 5
+planets/gas/gas-spin
+  rotate: false
+  xy: 1755, 1461
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 6
+planets/gas/gas-spin
+  rotate: false
+  xy: 1657, 1363
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 7
+planets/gas/gas-spin
+  rotate: false
+  xy: 1657, 1265
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 8
+planets/gas/gas-spin
+  rotate: false
+  xy: 1755, 1363
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 9
+planets/gas/gas-spin
+  rotate: false
+  xy: 1755, 1265
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 10
+planets/mars/mars-spin
+  rotate: false
+  xy: 1853, 1427
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 0
+planets/mars/mars-spin
+  rotate: false
+  xy: 1853, 1329
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 1
+planets/mars/mars-spin
+  rotate: false
+  xy: 1951, 1382
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 2
+planets/mars/mars-spin
+  rotate: false
+  xy: 1853, 1231
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 3
+planets/mars/mars-spin
+  rotate: false
+  xy: 1951, 1284
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 4
+planets/mars/mars-spin
+  rotate: false
+  xy: 2049, 1281
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 5
+planets/mars/mars-spin
+  rotate: false
+  xy: 2147, 1281
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 6
+planets/mars/mars-spin
+  rotate: false
+  xy: 2245, 1281
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 7
+planets/mars/mars-spin
+  rotate: false
+  xy: 2343, 1281
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 8
+planets/mars/mars-spin
+  rotate: false
+  xy: 1951, 1186
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 9
+planets/mars/mars-spin
+  rotate: false
+  xy: 2049, 1183
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 10
+planets/mars/mars-spin
+  rotate: false
+  xy: 2147, 1183
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 11
+planets/mars/mars-spin
+  rotate: false
+  xy: 2245, 1183
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 12
+planets/mars/mars-spin
+  rotate: false
+  xy: 2343, 1183
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 13
+planets/mars/mars-spin
+  rotate: false
+  xy: 2441, 1181
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 14
+planets/mars/mars-spin
+  rotate: false
+  xy: 2539, 1181
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 15
+planets/mars/mars-spin
+  rotate: false
+  xy: 2637, 1189
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 16
+planets/mars/mars-spin
+  rotate: false
+  xy: 2735, 1201
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 17
+planets/mars/mars-spin
+  rotate: false
+  xy: 2833, 1201
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 18
+planets/mars/mars-spin
+  rotate: false
+  xy: 2931, 1201
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 19
+planets/mars/mars-spin
+  rotate: false
+  xy: 3029, 1201
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 20
+planets/mars/mars-spin
+  rotate: false
+  xy: 3127, 1201
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 21
+planets/mars/mars-spin
+  rotate: false
+  xy: 3225, 1201
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 22
+planets/mars/mars-spin
+  rotate: false
+  xy: 3323, 1201
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 23
+planets/mars/mars-spin
+  rotate: false
+  xy: 3421, 1209
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 24
+planets/mars/mars-spin
+  rotate: false
+  xy: 3519, 1209
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 25
+planets/mars/mars-spin
+  rotate: false
+  xy: 3617, 1163
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 26
+planets/mars/mars-spin
+  rotate: false
+  xy: 3715, 1163
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 27
+planets/mars/mars-spin
+  rotate: false
+  xy: 3813, 1163
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 28
+planets/mars/mars-spin
+  rotate: false
+  xy: 1363, 1147
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 29
+planets/mars/mars-spin
+  rotate: false
+  xy: 1461, 1147
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 30
+planets/mars/mars-spin
+  rotate: false
+  xy: 1559, 1147
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 31
+planets/mercury/mercury-spin
+  rotate: false
+  xy: 1657, 1167
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 0
+planets/mercury/mercury-spin
+  rotate: false
+  xy: 1755, 1167
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 1
+planets/mercury/mercury-spin
+  rotate: false
+  xy: 1853, 1133
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 2
+planets/mercury/mercury-spin
+  rotate: false
+  xy: 1951, 1088
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 3
+planets/mercury/mercury-spin
+  rotate: false
+  xy: 2049, 1085
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 4
+planets/mercury/mercury-spin
+  rotate: false
+  xy: 2147, 1085
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 5
+planets/mercury/mercury-spin
+  rotate: false
+  xy: 2245, 1085
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 6
+planets/mercury/mercury-spin
+  rotate: false
+  xy: 2343, 1085
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 7
+planets/mercury/mercury-spin
+  rotate: false
+  xy: 2441, 1083
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 8
+planets/mercury/mercury-spin
+  rotate: false
+  xy: 2539, 1083
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 9
+planets/mercury/mercury-spin
+  rotate: false
+  xy: 2637, 1091
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 10
+planets/mercury/mercury-spin
+  rotate: false
+  xy: 2735, 1103
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 11
+planets/mercury/mercury-spin
+  rotate: false
+  xy: 2833, 1103
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 12
+planets/mercury/mercury-spin
+  rotate: false
+  xy: 2931, 1103
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 13
+planets/mercury/mercury-spin
+  rotate: false
+  xy: 3029, 1103
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 14
+planets/mercury/mercury-spin
+  rotate: false
+  xy: 3127, 1103
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 15
+planets/mercury/mercury-spin
+  rotate: false
+  xy: 3225, 1103
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 16
+planets/mercury/mercury-spin
+  rotate: false
+  xy: 3323, 1103
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 17
+planets/mercury/mercury-spin
+  rotate: false
+  xy: 3421, 1111
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 18
+planets/mercury/mercury-spin
+  rotate: false
+  xy: 3519, 1111
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 19
+planets/mercury/mercury-spin
+  rotate: false
+  xy: 3617, 1065
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 20
+planets/mercury/mercury-spin
+  rotate: false
+  xy: 3715, 1065
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 21
+planets/mercury/mercury-spin
+  rotate: false
+  xy: 3813, 1065
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 22
+planets/mercury/mercury-spin
+  rotate: false
+  xy: 1347, 1049
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 23
+planets/mercury/mercury-spin
+  rotate: false
+  xy: 1445, 1049
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 24
+planets/mercury/mercury-spin
+  rotate: false
+  xy: 1543, 1049
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 25
+planets/mercury/mercury-spin
+  rotate: false
+  xy: 1657, 1069
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 26
+planets/mercury/mercury-spin
+  rotate: false
+  xy: 1755, 1069
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 27
+planets/mercury/mercury-spin
+  rotate: false
+  xy: 1853, 1035
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 28
+planets/mercury/mercury-spin
+  rotate: false
+  xy: 1951, 990
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 29
+planets/meteorshower/meteorshower
+  rotate: false
+  xy: 2049, 987
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 0
+planets/pulsar/pulsar
+  rotate: false
+  xy: 2147, 987
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 0
+planets/venus/venus-spin
+  rotate: false
+  xy: 2245, 987
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 0
+planets/venus/venus-spin
+  rotate: false
+  xy: 2343, 987
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 1
+planets/venus/venus-spin
+  rotate: false
+  xy: 2441, 985
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 2
+planets/venus/venus-spin
+  rotate: false
+  xy: 2539, 985
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 3
+planets/venus/venus-spin
+  rotate: false
+  xy: 2637, 993
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 4
+planets/venus/venus-spin
+  rotate: false
+  xy: 2735, 1005
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 5
+planets/venus/venus-spin
+  rotate: false
+  xy: 2833, 1005
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 6
+planets/venus/venus-spin
+  rotate: false
+  xy: 2931, 1005
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 7
+planets/venus/venus-spin
+  rotate: false
+  xy: 3029, 1005
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 8
+planets/venus/venus-spin
+  rotate: false
+  xy: 3127, 1005
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 9
+planets/venus/venus-spin
+  rotate: false
+  xy: 3225, 1005
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 10
+planets/venus/venus-spin
+  rotate: false
+  xy: 3323, 1005
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 11
+planets/venus/venus-spin
+  rotate: false
+  xy: 3421, 1013
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 12
+planets/venus/venus-spin
+  rotate: false
+  xy: 3519, 1013
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 13
+planets/venus/venus-spin
+  rotate: false
+  xy: 3617, 967
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 14
+planets/venus/venus-spin
+  rotate: false
+  xy: 3715, 967
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 15
+planets/venus/venus-spin
+  rotate: false
+  xy: 3813, 967
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 16
+planets/venus/venus-spin
+  rotate: false
+  xy: 911, 1001
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 17
+planets/venus/venus-spin
+  rotate: false
+  xy: 1009, 1001
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 18
+planets/venus/venus-spin
+  rotate: false
+  xy: 911, 903
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 19
+planets/venus/venus-spin
+  rotate: false
+  xy: 1107, 1001
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 20
+planets/venus/venus-spin
+  rotate: false
+  xy: 1009, 903
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 21
+planets/venus/venus-spin
+  rotate: false
+  xy: 1205, 1001
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 22
+planets/venus/venus-spin
+  rotate: false
+  xy: 1107, 903
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 23
+ring
+  rotate: false
+  xy: 1067, 591
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+satellites/debris-satellite-a
+  rotate: false
+  xy: 309, 1259
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: 0
+satellites/debris-satellite-b
+  rotate: false
+  xy: 309, 1057
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: 0
+satellites/debris-satellite-c
+  rotate: false
+  xy: 749, 1589
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: 0
+ships/player/active/player-ship-active
+  rotate: false
+  xy: 561, 621
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 0
+ships/player/active/player-ship-active
+  rotate: false
+  xy: 473, 479
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 1
+ships/player/active/player-ship-active
+  rotate: false
+  xy: 473, 349
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 2
+ships/player/active/player-ship-active
+  rotate: false
+  xy: 603, 491
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 3
+ships/player/idle/player-ship-idle
+  rotate: false
+  xy: 603, 361
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 0
+ships/player/inactive/player-ship-inert
+  rotate: false
+  xy: 691, 621
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 0
+ships/player/parts/ship-part-cabin/ship-part-cabin-a
+  rotate: false
+  xy: 3717, 1721
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: 0
+ships/player/parts/ship-part-cabin/ship-part-cabin-b
+  rotate: false
+  xy: 1199, 621
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: 0
+ships/player/parts/ship-part-nose/ship-part-nose
+  rotate: false
+  xy: 1199, 569
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: 0
+ships/player/parts/ship-part-tail/ship-part-tail
+  rotate: false
+  xy: 1199, 517
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: 0
+title-explosion/title-explosion
+  rotate: false
+  xy: 547, 1791
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 0
+title-explosion/title-explosion
+  rotate: false
+  xy: 1, 1163
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 1
+title-explosion/title-explosion
+  rotate: false
+  xy: 805, 1791
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 2
+title-explosion/title-explosion
+  rotate: false
+  xy: 1, 905
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 3
+title-explosion/title-explosion
+  rotate: false
+  xy: 1063, 1791
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 4
+title-explosion/title-explosion
+  rotate: false
+  xy: 1, 647
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 5
+title-explosion/title-explosion
+  rotate: false
+  xy: 1321, 1791
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 6
+title-explosion/title-explosion
+  rotate: false
+  xy: 1, 389
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 7
+title-explosion/title-explosion
+  rotate: false
+  xy: 1579, 1791
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 8
+title-explosion/title-explosion
+  rotate: false
+  xy: 1, 131
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 9
+title-explosion/title-explosion
+  rotate: false
+  xy: 1837, 1791
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 10
+title-explosion/title-explosion
+  rotate: false
+  xy: 2095, 1791
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 11
+title-explosion/title-explosion
+  rotate: false
+  xy: 2353, 1791
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 12
+title-explosion/title-explosion
+  rotate: false
+  xy: 2611, 1791
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 13
+title-explosion/title-explosion
+  rotate: false
+  xy: 2869, 1791
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 14
+title-explosion/title-explosion
+  rotate: false
+  xy: 3127, 1791
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 15
+tutorial/earth
+  rotate: false
+  xy: 951, 1589
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+tutorial/fuel
+  rotate: false
+  xy: 3587, 1811
+  size: 200, 80
+  orig: 200, 80
+  offset: 0, 0
+  index: -1
+tutorial/launch
+  rotate: false
+  xy: 1153, 1589
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+tutorial/minimap-explored
+  rotate: false
+  xy: 3385, 1893
+  size: 266, 154
+  orig: 266, 154
+  offset: 0, 0
+  index: -1
+tutorial/minimap-unexplored
+  rotate: false
+  xy: 3653, 1893
+  size: 266, 154
+  orig: 266, 154
+  offset: 0, 0
+  index: -1
+tutorial/waypoint-example
+  rotate: false
+  xy: 2113, 1639
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+tutorial/waypoint-goal
+  rotate: false
+  xy: 2265, 1639
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1

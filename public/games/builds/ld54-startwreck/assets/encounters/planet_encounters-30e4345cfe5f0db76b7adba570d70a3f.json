@@ -1,0 +1,82 @@
+[
+  {
+    "title": "New Planet: Cherry's Litterbox",
+    "text": "You have discovered a new planet with Feline smells. They greet you with meows. \n What do you do?",
+    "imageKey": "cherry",
+    "options": [
+      {
+        "text": "Meow back",
+        "possibleOutcomes": [
+          {
+            "type": "CREDITS",
+            "value": 100,
+            "text": "They were super weak and peaceful bunch. \n They had no chance, but some credits got destroyed.",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "text": "Ignore them",
+        "possibleOutcomes": [
+          {
+            "type": "CREDITS",
+            "value": 100,
+            "text": "They were super weak and peaceful bunch. \n They had no chance, but some credits got destroyed.",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "text": "Attack them",
+        "possibleOutcomes": [
+          {
+            "type": "CREDITS",
+            "value": 100,
+            "text": "They were super weak and peaceful bunch. \n They had no chance, but some credits got destroyed.",
+            "weight": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "New Planet: Asuka's Kingdom",
+    "text": "You have arrived at a new planet where Asuka gives you some wet greetings. He is full of love. \n What do you do?",
+    "imageKey": "asuka",
+    "options": [
+      {
+        "text": "Give Nothing",
+        "possibleOutcomes": [
+          {
+            "type": "CREDITS",
+            "value": 100,
+            "text": "They were super weak and peaceful bunch. \n They had no chance, but some credits got destroyed.",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "text": "Give Pets",
+        "possibleOutcomes": [
+          {
+            "type": "CREDITS",
+            "value": 100,
+            "text": "They were super weak and peaceful bunch. \n They had no chance, but some credits got destroyed.",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "text": "Give treats",
+        "possibleOutcomes": [
+          {
+            "type": "CREDITS",
+            "value": 100,
+            "text": "They were super weak and peaceful bunch. \n They had no chance, but some credits got destroyed.",
+            "weight": 1
+          }
+        ]
+      }
+    ]
+  }
+]
