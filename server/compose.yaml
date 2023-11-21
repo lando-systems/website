@@ -1,0 +1,15 @@
+services:
+  httpd:
+    image: httpd:2.4
+    container_name: httpd
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - /srv/httpd/conf:/usr/local/apache2/conf
+      - /srv/httpd/html:/usr/local/apache2/htdocs
+      - /srv/httpd/logs:/usr/local/apache2/logs
+      - /etc/letsencrypt/live/beep-low.com/fullchain.pem:/usr/local/apache2/conf/server.crt
+      - /etc/letsencrypt/live/beep-low.com/privkey.pem:/usr/local/apache2/conf/server.key
+    restart: unless-stopped
+
