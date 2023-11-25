@@ -26,26 +26,28 @@ The `/server` directory contains configuration files for a dockerized [Apache ht
 This configuration is used for the [lando.systems](https://lando.systems) website. As of Nov 2023, the site is hosted
 on a [DigitalOcean](https://www.digitalocean.com/) droplet running Docker 23 on Ubuntu 22.
 
+### New server setup
+
+Documentation for setting up a new server via [Digital Ocean](https://www.digitalocean.com) 
+can be found in [this comment on issue #9](https://github.com/lando-systems/website/issues/9#issuecomment-1826195088)
+
 ### Files and host directory structure
-- `./server/httpd.conf` - Apache `httpd` configuration file
-- `./server/mime.types` - Apache `httpd` mime type definitions
-- `./server/compose.yaml` - Docker compose file for `httpd` web server container
-  - creates a container named `httpd` based on the standard [httpd image](https://hub.docker.com/_/httpd)
-  - exposes ports 80 and 443 on the host machine for non-ssl and ssl traffic respectively
-  - mounts **host** folders and files to the web server container
-    - `/srv/httpd` - the web server root directory, `compose.yaml` lives here
+
+The following files found in the `/server` directory are used to configure the web server:
+- `httpd.conf` - Apache `httpd` configuration file
+- `mime.types` - Apache `httpd` mime type definitions
+- `compose.yaml` - Docker compose configuration for `httpd` web server container
+
+The Docker compose configuration in `compose.yaml`:
+- lives in `/srv/httpd` - the web server root directory on the host machine
+- creates a container named `httpd` based on the standard [httpd image](https://hub.docker.com/_/httpd)
+- exposes ports 80 and 443 on the host machine for non-ssl and ssl traffic respectively
+- mounts **host** folders and files to the web server container
     - `/srv/httpd/logs` - the `httpd` log directory
-    - `/srv/httpd/conf` - the `httpd` configuration directory, contains:
-      - `httpd.conf`
-      - `mime.types`
-      - [Let's Encrypt](https://letsencrypt.org/) certificates created and renewed by [certbot](https://certbot.eff.org/)
+    - `/srv/httpd/conf` - the `httpd` configuration directory
     - `/srv/httpd/html` - the `httpd` web document root, contains:
       - the static website files (everything under `/public`)
       - a `.well-known` directory for Let's Encrypt certificate verification
-
-### New server setup
-
-TODO - document the initial web server configuration, what all needs to be done to spin up a new VM that can serve the site
 
 ## Deployment
 
