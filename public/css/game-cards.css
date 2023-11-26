@@ -1,0 +1,119 @@
+.animate__animated {
+  --animate-duration: 0.2s;
+}
+
+.game-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  justify-content: center;
+}
+
+.card-container {
+  display: grid; /* enforce uniform sizes for each card */
+  background-clip: padding-box; /* make transparent border actually transparent instead of white */
+  border: 0.3rem dotted transparent; /* prevent jitter when setting border on hover */
+  border-radius: 0.5rem;
+  padding: 0.25rem;
+  max-width: 250px;
+}
+.card-container img {
+  filter: brightness(80%);
+}
+.card-container:hover {
+  border: 0.3rem dotted deepskyblue;
+}
+.card-container:hover img,
+.card-container:hover .card-title {
+  filter: brightness(120%);
+}
+.card-container a {
+  text-decoration: none;
+}
+
+.card {
+  background-color: var(--color-dark-surface);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  text-align: center;
+  display: grid;
+  min-height: 100%;
+  grid-template-rows: 1fr auto;
+}
+
+.card-content {
+  border-radius: 0 0 1rem 1rem;
+}
+
+.card-image {
+  border-radius: 0.25rem 0.25rem 0 0;
+  margin: 0 auto;
+}
+
+.card-header {
+  border-top: 0.1rem solid var(--color-dark-surface-light);
+}
+
+.card-title {
+  text-transform: capitalize;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-subtitle {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.created-date {
+  font-size: 0.75rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-body {
+  text-align: center;
+}
+.card-body table {
+  width: 100%;
+  font-size: 1rem;
+}
+.card-body table thead,
+.card-body table tfoot {
+  background-color: var(--color-dark-background);
+}
+.card-body .game-ratings tr:nth-child(odd) {
+  background-color: var(--color-dark-surface-light);
+}
+.card-body .game-ratings .rating-category {
+  text-align: left;
+  text-transform: capitalize;
+  padding-left: 1rem;
+}
+.card-body .game-ratings .rating-category .category-icon {
+  /* NOTE - this was for doing a cute 'show the emoji on hover' thing */
+  /*visibility: hidden;*/
+}
+
+.card-footer {
+  width: 100%;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  padding: 0.25rem;
+  margin-top: 0.5rem;
+}
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.25rem 0.3rem;
+  border-radius: 0.5rem;
+  color: var(--color-dark-secondary);
+  border: 0.25rem solid var(--color-dark-surface);
+  background-color: var(--color-dark-surface-light);
+}
+.button:hover {
+  color: var(--color-dark-text);
+  border: 0.3rem solid var(--color-dark-surface-light);
+  background-color: var(--color-dark-surface-lighter);
+}
