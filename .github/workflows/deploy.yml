@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -37,33 +37,4 @@ jobs:
           POST_SCRIPT: |
             echo "Completed at: "$(date -u)
 
-#  deploy:
-#    runs-on: ubuntu-latest
-#
-#    steps:
-#      - name: Checkout code
-#        uses: actions/checkout@v4
-#
-#      - name: Set up SSH
-#        uses: webfactory/ssh-agent@v0.5.0
-#        with:
-#          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
-#
-#      - name: SSH, Deploy, Convert, Copy
-#        run: |
-#          ssh -o StrictHostKeyChecking=no ${{ secrets.SSH_CONNECTION_STRING }} << 'EOF'
-#            echo "Starting deployment..."
-#            cd /srv/httpd/website
-#
-#            echo "Pulling latest code from GitHub..."
-#            git pull origin main
-#
-#            echo "Running conversion of posts: markdown -> html..."
-#            npm install
-#            npm run build
-#
-#            echo "Copying files in ./public to web root..."
-#            rsync -avz --chown=www-data:www-data --chmod=ug=rwx,o=rx /srv/httpd/website/public/ /srv/httpd/html/
-#
-#            echo "Deployment complete!"
-#          EOF
+      # TODO - may want to add extra steps to copy compose.yaml and other server files
