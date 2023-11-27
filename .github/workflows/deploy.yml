@@ -6,24 +6,6 @@ on:
       - main
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '18'
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Convert markdown to html
-        run: npm run build
-
   deploy:
     runs-on: ubuntu-latest
 
@@ -36,10 +18,12 @@ jobs:
         with:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
-      - name: SSH and Deploy
+      - name: SSH, Deploy, Convert, Copy
         run: |
           ssh -o StrictHostKeyChecking=no ${{ secrets.SSH_CONNECTION_STRING }} << 'EOF'
             cd /srv/httpd/website
             git pull origin main
-            rsync -avz --chown=www-data:www-data /srv/httpd/website/public/ /srv/httpd/html/
+            npm install
+            npm run build
+            rsync -avz --chown=www-data:www-data --chmod=ug=rwx,o=rx /srv/httpd/website/public/ /srv/httpd/html/
           EOF
