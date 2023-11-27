@@ -1,6 +1,9 @@
 name: Build and Deploy
 
-on: [push]
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   build:
@@ -21,6 +24,22 @@ jobs:
       - name: Convert markdown to html
         run: npm run build
 
-# TODO - Add deployment steps here
-#  deploy:
-#    ...
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up SSH
+        uses: webfactory/ssh-agent@v0.5.0
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      - name: SSH and Deploy
+        run: |
+          ssh -o StrictHostKeyChecking=no ${{ secrets.SSH_CONNECTION_STRING }} << 'EOF'
+            cd /srv/httpd/website
+            git pull origin main
+            rsync -avz --chown=www-data:www-data --chmod=ug=rwx,o=rx /srv/httpd/website/public/ /srv/httpd/html/
+          EOF
