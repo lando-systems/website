@@ -41,5 +41,5 @@ jobs:
           ssh -o StrictHostKeyChecking=no ${{ secrets.SSH_CONNECTION_STRING }} << 'EOF'
             cd /srv/httpd/website
             git pull origin main
-            rsync -avz --chown=www-data:www-data --chmod=ug=rwx,o=rx /srv/httpd/website/public/ /srv/httpd/html/
+            rsync -avz --chown=www-data:www-data /srv/httpd/website/public/ /srv/httpd/html/
           EOF
