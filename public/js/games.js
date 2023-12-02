@@ -124,7 +124,7 @@ export const games = [
     date: "2023-01-09",
     code: "https://github.com/bploeckelman/LudumDare52",
     entry: "https://ldjam.com/events/ludum-dare/52/reapo-man-death-who",
-    play: "/games/death-who",
+    play: "./games/builds/ld52-reapo-man",
     post: "/games/posts/death-who",
     ratings: {
       overall: 380,
@@ -162,7 +162,7 @@ export const games = [
     date: "2022-04-04",
     code: "https://github.com/bploeckelman/LudumDare50",
     entry: "https://ldjam.com/events/ludum-dare/50/ava-launch",
-    play: "/games/ava-launch",
+    play: "./games/builds/ld50-avalaunch",
     post: "/games/posts/ava-launch",
     ratings: {
       overall: 394,
@@ -183,7 +183,7 @@ export const games = [
     code: "https://github.com/bploeckelman/LudumDare49",
     entry:
       "https://ldjam.com/events/ludum-dare/49/banana-republic-nuclear-power-plantain",
-    play: "/games/banana-republic",
+    play: "./games/builds/ld49-bananarepublic",
     post: "/games/posts/banana-republic",
     ratings: {
       overall: 114,
@@ -203,7 +203,7 @@ export const games = [
     date: "2021-04-26",
     code: "https://github.com/bploeckelman/LudumDare48",
     entry: "https://ldjam.com/events/ludum-dare/48/deeper-state-elon-flux",
-    play: "/games/deeper-state",
+    play: "./games/builds/ld48-deeperstate",
     post: "/games/posts/deeper-state",
     ratings: {
       overall: 477,
@@ -222,7 +222,7 @@ export const games = [
     date: "2020-10-05",
     code: "https://github.com/bploeckelman/LudumDare47",
     entry: "https://ldjam.com/events/ludum-dare/47/block-runner-2049",
-    play: "/games/block-runner",
+    play: "./games/builds/ld47-blockrunner2049",
     post: "/games/posts/block-runner",
     ratings: {
       overall: 1186,
@@ -241,7 +241,7 @@ export const games = [
     date: "2020-04-20",
     code: "https://github.com/bploeckelman/LudumDare46",
     entry: "https://ldjam.com/events/ludum-dare/46/in-the-flesh",
-    play: "/games/in-the-flesh",
+    play: "./games/builds/ld46-intheflesh",
     post: "/games/posts/in-the-flesh",
     ratings: {
       overall: 411,
@@ -261,7 +261,7 @@ export const games = [
     date: "2019-10-07",
     code: "https://github.com/bploeckelman/LudumDare45",
     entry: "https://ldjam.com/events/ludum-dare/45/ball-of-duty-special-drops",
-    play: "/games/ball-of-duty",
+    play: "./games/builds/ld45-ballofduty",
     post: "/games/posts/ball-of-duty",
     ratings: {
       overall: 37,
@@ -282,7 +282,7 @@ export const games = [
     code: "https://github.com/bploeckelman/LudumDare44",
     entry:
       "https://ldjam.com/events/ludum-dare/44/sofa-kingdom-change-of-thrones",
-    play: "/games/sofa-kingdom",
+    play: "./games/builds/ld44-sofakingdom",
     post: "/games/posts/sofa-kingdom",
     ratings: {
       overall: 178,
@@ -301,7 +301,7 @@ export const games = [
     date: "2018-12-03",
     code: "https://github.com/bploeckelman/LudumDare43",
     entry: "https://ldjam.com/events/ludum-dare/43/ulti-meme-sacrifice",
-    play: "/games/ulti-meme",
+    play: "./games/builds/ld43-ultimeme-sacrifice",
     post: "/games/posts/ulti-meme",
     ratings: {
       overall: 58,
@@ -320,7 +320,7 @@ export const games = [
     date: "2018-08-13",
     code: "https://github.com/bploeckelman/LudumDare42",
     entry: "https://ldjam.com/events/ludum-dare/42/kingdoms-fall",
-    play: "/games/kingdoms-fall",
+    play: "./games/builds/ld42-kingdoms-fall",
     post: "/games/posts/kingdoms-fall",
     ratings: {
       overall: 293,
@@ -339,7 +339,7 @@ export const games = [
     date: "2018-04-23",
     code: "https://github.com/bploeckelman/LudumDare41",
     entry: "https://ldjam.com/events/ludum-dare/41/putt-putt-boom-1",
-    play: "/games/putt-putt",
+    play: "./games/builds/ld41-putt-putt-boom",
     post: "/games/posts/putt-putt",
     ratings: {
       overall: 125,
@@ -358,7 +358,7 @@ export const games = [
     date: "2017-12-04",
     code: "https://github.com/bploeckelman/LudumDare40",
     entry: "https://ldjam.com/events/ludum-dare/40/litter-burg",
-    play: "/games/litter-burg",
+    play: "./games/builds/ld40-litterburg",
     post: "/games/posts/litter-burg",
     ratings: {
       overall: 174,
@@ -377,7 +377,7 @@ export const games = [
     date: "2017-07-31",
     code: "https://github.com/bploeckelman/LudumDare39",
     entry: "https://ldjam.com/events/ludum-dare/39/musk-hunter",
-    play: "/games/musk-hunter",
+    play: "./games/builds/ld39-muskhunter",
     post: "/games/posts/musk-hunter",
     ratings: {
       overall: 240,
@@ -396,7 +396,7 @@ export const games = [
     date: "2017-04-24",
     code: "https://github.com/bploeckelman/LudumDare38",
     entry: "https://ldjam.com/events/ludum-dare/38/higher-ground",
-    play: "/games/higher-ground",
+    play: "./games/builds/ld38-higherground",
     post: "/games/posts/higher-ground",
     ratings: {
       overall: 78,
@@ -415,7 +415,7 @@ export const games = [
     date: "2016-12-12",
     code: "https://github.com/bploeckelman/LudumDare37",
     entry: "https://ldjam.com/users/landosystems/games",
-    play: "/games/we-carry",
+    play: "./games/builds/ld37-whatwecarry",
     post: "/games/posts/we-carry",
     ratings: {
       overall: 476,
@@ -435,7 +435,7 @@ export const games = [
     date: "2016-08-29",
     code: "https://github.com/bploeckelman/LudumDare36",
     entry: "https://ldjam.com/users/landosystems/games",
-    play: "/games/co-ot",
+    play: "./games/builds/ld36-coot",
     post: "/games/posts/co-ot",
     ratings: {
       overall: 0,
@@ -454,7 +454,7 @@ export const games = [
     date: "2016-04-18",
     code: "https://github.com/bploeckelman/LudumDare35",
     entry: "https://ldjam.com/users/landosystems/games",
-    play: "/games/shift-drift",
+    play: "./games/builds/ld35-shiftndrift",
     post: "/games/posts/shift-drift",
     ratings: {
       overall: 108,
@@ -473,7 +473,7 @@ export const games = [
     date: "2015-12-14",
     code: "https://github.com/bploeckelman/LudumDare34",
     entry: "https://ldjam.com/users/landosystems/games",
-    play: "/games/pyramid-scheme",
+    play: "./games/builds/ld34-pyramid-scheme",
     post: "/games/posts/pyramid-scheme",
     ratings: {
       overall: 156,
@@ -492,7 +492,7 @@ export const games = [
     date: "2015-08-24",
     code: "https://github.com/bploeckelman/LudumDare33",
     entry: "https://ldjam.com/users/landosystems/games",
-    play: "/games/goomba-sim",
+    play: "./games/builds/ld33-goomba-sim",
     post: "/games/posts/goomba-sim",
     ratings: {
       overall: 59,
@@ -511,7 +511,7 @@ export const games = [
     date: "2015-04-20",
     code: "https://github.com/bploeckelman/LudumDare32",
     entry: "https://ldjam.com/users/landosystems/games",
-    play: "/games/type-fighter",
+    play: "./games/builds/ld32-typefighter",
     post: "/games/posts/type-fighter",
     ratings: {
       overall: 205,
@@ -531,7 +531,7 @@ export const games = [
     date: "2014-12-08",
     code: "https://github.com/bploeckelman/LudumDare31",
     entry: "https://ldjam.com/users/landosystems/games",
-    play: "/games/bar-orders",
+    play: "./games/builds/ld31-barorders",
     post: "/games/posts/bar-orders",
     ratings: {
       overall: 914,
@@ -550,7 +550,7 @@ export const games = [
     date: "2014-04-27",
     code: "https://github.com/bploeckelman/LudumDare30",
     entry: "https://ldjam.com/users/landosystems/games",
-    play: "/games/prismatic-worlds",
+    play: "./games/builds/ld30-prismaticworlds",
     post: "/games/posts/prismatic-worlds",
     ratings: {
       overall: 453,
@@ -569,7 +569,7 @@ export const games = [
     date: "2014-04-27",
     code: "https://github.com/bploeckelman/LudumDare29",
     entry: "https://ldjam.com/users/landosystems/games",
-    play: "/games/crustacean-farm",
+    play: "./games/builds/ld29-crustaceanfarm",
     post: "/games/posts/crustacean-farm",
     ratings: {
       overall: 89,
@@ -588,7 +588,7 @@ export const games = [
     date: "2013-12-15",
     code: "https://github.com/bploeckelman/LudumDare28",
     entry: "https://ldjam.com/users/landosystems/games",
-    play: "/games/one-ring",
+    play: "./games/builds/ld28-onering",
     post: "/games/posts/one-ring",
     ratings: {
       overall: 54,
@@ -626,7 +626,7 @@ export const games = [
     date: "2013-04-29",
     code: "https://github.com/bploeckelman/goldenage-ld26",
     entry: "https://ldjam.com/users/landosystems/games",
-    play: "/games/golden-age",
+    play: "./games/builds/ld26-goldenage",
     post: "/games/posts/golden-age",
     ratings: {
       overall: 282,
