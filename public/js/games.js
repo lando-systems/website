@@ -77,6 +77,26 @@ export const createGameCard = (game) => {
 
 export const games = [
   {
+    title: "Board to Death",
+    subtitle: "Monarchs and Monsters",
+    thumbnail: "./images/thumbs/ld55-board-to-death-thumb.png",
+    date: "2024-04-15",
+    code: "https://github.com/bploeckelman/LudumDare55",
+    entry: "https://ldjam.com/events/ludum-dare/55/board-to-death",
+    play: "./games/builds/ld55-board-to-death",
+    post: "/games/posts/board-to-death",
+    ratings: {
+      overall: 246,
+      fun: 294,
+      innovation: 123,
+      theme: 268,
+      graphics: 527,
+      audio: 224,
+      humor: 225,
+      mood: 413,
+    },
+  },
+  {
     title: "Start Wreck",
     subtitle: "The Finite Frontier",
     thumbnail: "./images/thumbs/ld54-startwreck-thumb.png",
